@@ -1,0 +1,281 @@
+/* ========================================
+   CELEN CHAMBERS — ONLINE SECURITY PAGE
+   ======================================== */
+
+/* ── Security Content Layout ── */
+.security-content {
+  background: var(--off-white);
+}
+
+.security-content__layout {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  gap: 6rem;
+  align-items: start;
+}
+
+/* ── Sticky Sidebar ── */
+.security-sidebar {
+  position: sticky;
+  top: 10rem;
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 3.2rem;
+}
+
+.security-sidebar__heading {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+  margin-bottom: 2rem;
+}
+
+.security-sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.security-sidebar__nav a {
+  display: block;
+  padding: 1rem 1.2rem;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  border-left: 3px solid transparent;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  transition: color var(--dur-fast), border-color var(--dur-fast), background var(--dur-fast);
+}
+
+.security-sidebar__nav a:hover {
+  color: var(--text-primary);
+  background: var(--off-white);
+}
+
+.security-sidebar__nav a.active {
+  color: var(--blue-accent);
+  border-left-color: var(--blue-accent);
+  background: var(--off-white);
+}
+
+/* ── Security Sections ── */
+.security-section {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.security-section:first-child {
+  padding-top: 0;
+}
+
+.security-section:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.security-section__title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+.security-section__body {
+  margin-top: 2rem;
+}
+
+.security-section__body p {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: var(--text-secondary);
+  margin-bottom: 1.6rem;
+}
+
+.security-section__body p:last-child {
+  margin-bottom: 0;
+}
+
+/* Guidelines list */
+.guidelines-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-top: 2rem;
+}
+
+.guideline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.guideline-item svg {
+  flex-shrink: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  color: var(--blue-accent);
+  margin-top: 0.2rem;
+}
+
+/* Definition list */
+.definition-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.definition-term {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.definition-desc {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-top: 0.4rem;
+}
+
+/* Info callout */
+.callout {
+  margin-top: 2rem;
+  padding: 2rem;
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--blue-accent);
+  background: var(--light-blue-grey);
+}
+
+.callout p {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+/* Warning callout */
+.callout--warning {
+  border-left-color: var(--error);
+  background: rgba(192, 57, 43, 0.05);
+}
+
+.callout--warning p {
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+}
+
+.callout--warning p:last-child {
+  margin-bottom: 0;
+}
+
+/* Success callout */
+.callout--success {
+  border-left-color: var(--success);
+  background: rgba(46, 139, 87, 0.05);
+}
+
+/* Recommendations list */
+.recommendations-list {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.recommendation-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.recommendation-item::before {
+  content: '';
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: var(--blue-accent);
+  flex-shrink: 0;
+}
+
+/* ── Security Concern CTA ── */
+.security-cta-section {
+  background: var(--white);
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.security-cta-section .heading-m {
+  color: var(--text-primary);
+}
+
+.security-cta-section .body-l {
+  color: var(--text-secondary);
+  margin-top: 1.6rem;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.security-cta-section .btn {
+  margin-top: 3.2rem;
+}
+
+/* ── Mobile topic tabs ── */
+.mobile-topics {
+  display: none;
+  margin-bottom: 3rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  gap: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.mobile-topics::-webkit-scrollbar {
+  display: none;
+}
+
+.mobile-topics a {
+  flex-shrink: 0;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.3rem;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
+  transition: all var(--dur-fast);
+}
+
+.mobile-topics a:hover,
+.mobile-topics a.active {
+  color: var(--blue-accent);
+  border-color: var(--blue-accent);
+  background: rgba(30, 90, 168, 0.05);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .security-content__layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .security-sidebar {
+    display: none;
+  }
+  
+  .mobile-topics {
+    display: flex;
+  }
+  
+  .security-section__title {
+    font-size: 2.4rem;
+  }
+}

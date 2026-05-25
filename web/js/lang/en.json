@@ -1,0 +1,249 @@
+{
+  "pageTitle": "Celen LawFirm | International Law Firm",
+  "metaDescription": "Celen LawFirm is a full-service international law firm based in Ankara, Turkey. Legal excellence in corporate, commercial, employment, litigation, healthcare, competition, tax, and international law.",
+  
+  "nav": {
+    "home": "Home",
+    "practiceAreas": "Practice Areas",
+    "ourLawyers": "Our Lawyers",
+    "onlineSecurity": "Online Security",
+    "contactUs": "Contact Us"
+  },
+
+  "home": {
+    "hero": {
+      "label": "International Law Firm",
+      "title": "Celen LawFirm",
+      "subtitle": "Professional Legal Services",
+      "description": "A full-service law firm based in Ankara, Turkey. We are a premier practice with a national and international client base, delivering expert counsel across corporate, commercial, employment, litigation, healthcare, competition, tax, and international law.",
+      "ctaPrimary": "Explore Our Services",
+      "ctaSecondary": "Contact Us"
+    },
+    "about": {
+      "label": "Who We Are",
+      "heading": "Two Decades of Legal Excellence",
+      "body1": "Celen LawFirm is a full-service law firm based in Ankara, Turkey. We are a mid-sized practice with a national and international client base. Our expertise includes but is not limited to corporate and commercial law, employment and labour law, pharmaceutical and healthcare law, consumer law, litigation, competition law, international law, and tax law.",
+      "body2": "Founded on the principles of integrity, diligence, and strategic thinking, we have built lasting relationships with clients ranging from multinational corporations to individuals seeking trusted legal counsel. Our approach combines traditional legal craftsmanship with modern efficiency.",
+      "cta": "Learn More About Us"
+    },
+    "practice": {
+      "label": "Our Expertise",
+      "heading": "Comprehensive Legal Services",
+      "subtext": "Tailored solutions for complex legal challenges across jurisdictions",
+      "card1": {
+        "number": "01",
+        "title": "Corporate & Commercial Law",
+        "desc": "Corporate formations, structuring, mergers and acquisitions, governance advisory, shareholder agreements, and commercial contracts for businesses of all sizes."
+      },
+      "card2": {
+        "number": "02",
+        "title": "Employment & Labour Law",
+        "desc": "Strategic guidance on employment agreements, collective bargaining, workplace compliance, redundancy, discrimination claims, and labour disputes."
+      },
+      "card3": {
+        "number": "03",
+        "title": "Pharmaceutical & Healthcare Law",
+        "desc": "Specialized advisory for life sciences, healthcare providers, and biotech firms, navigating clinical trials, medical regulations, and patent issues."
+      },
+      "card4": {
+        "number": "04",
+        "title": "Consumer Law",
+        "desc": "Dedicated advocacy protecting consumer rights, ensuring product safety compliance, defending against unfair trade practices, and class actions."
+      },
+      "cta": "View All Practice Areas"
+    },
+    "lawyers": {
+      "label": "Our Team",
+      "heading": "Meet Our Partners",
+      "body": "Our partners bring decades of combined experience across multiple jurisdictions and practice areas. Each lawyer leads with a commitment to client success and legal excellence.",
+      "cta": "View All Lawyers"
+    },
+    "security": {
+      "label": "Client Protection",
+      "heading": "Your Security Is Our Priority",
+      "body": "In an era of increasing digital threats, we believe informed clients are protected clients. Our Online Security resource center provides practical guidance on safeguarding your sensitive legal information, recognizing potential risks, and maintaining best practices when communicating with Celen LawFirm.",
+      "items": [
+        "Secure communication protocols for sensitive matters",
+        "Best practices for online document exchange",
+        "Recognizing and avoiding phishing attempts",
+        "Browser security and privacy recommendations"
+      ],
+      "cta": "Visit Security Center"
+    },
+    "contact": {
+      "label": "Get in Touch",
+      "heading": "Let's Discuss Your Legal Needs",
+      "body": "Whether you require counsel for a complex corporate transaction, assistance with employment matters, or guidance through an international dispute, our team is ready to listen and advise. Schedule a confidential consultation today.",
+      "ctaPrimary": "Schedule a Consultation",
+      "ctaSecondary": "Call Us"
+    }
+  },
+
+  "practiceAreas": {
+    "pageTitle": "Practice Areas | Celen LawFirm",
+    "pageHeader": {
+      "label": "Practice Areas",
+      "heading": "Our Areas of Expertise",
+      "subtext": "Comprehensive legal services tailored to protect your interests and advance your objectives"
+    },
+    "corporate": {
+      "number": "01",
+      "title": "Corporate and Commercial Law",
+      "desc": "Our attorneys focus on corporate legal work including formations, structuring, tax advisory, due diligence, memoranda writing, drafting documents, and state filings. We routinely draft commercial contracts, corporate resolutions, and shareholder agreements for owner-managed businesses and represent clients in transactional disputes.",
+      "services": ["Corporate Formations & Structuring", "M&A Strategic Advisory", "Corporate Governance & Compliance", "Contract Drafting & Review", "Shareholder & Venture Agreements", "Regulatory & State Filings"]
+    },
+    "employment": {
+      "number": "02",
+      "title": "Employment and Labour Law",
+      "desc": "We guide businesses and executives through the complex framework of labor laws. Our services include workplace policies, wage-and-hour compliance, discrimination defense, executive compensation, and representation before arbitration panels and labor courts to secure optimal resolutions.",
+      "services": ["Employment Agreements & Policies", "Collective Bargaining Agreements", "Workplace Compliance & Audits", "Redundancy & Restructuring", "Discrimination & Harassment Claims", "Labour Dispute Representation"]
+    },
+    "healthcare": {
+      "number": "03",
+      "title": "Pharmaceutical and Healthcare Law",
+      "desc": "Advising life sciences companies, medical institutions, and practitioners on the rigorous regulatory environments surrounding medical devices, pharmaceuticals, clinical trials, and healthcare compliance, bridging the gap between healthcare innovation and regulatory mandates.",
+      "services": ["Regulatory Compliance & Licensing", "Clinical Trial Agreements", "IP Protection & Patents", "Healthcare Fraud & Abuse Advice", "Product Liability Defense", "Medical Negligence Representation"]
+    },
+    "consumer": {
+      "number": "04",
+      "title": "Consumer Law",
+      "desc": "Our firm is dedicated to protecting consumers against unfair commercial practices, deceptive marketing, defective products, and predatory lending. We represent clients in individual actions and class litigation while advising companies on complying with consumer standards.",
+      "services": ["Consumer Protection Claims", "Product Liability & Safety", "Advertising & Fair Trade Audits", "E-commerce & Digital Compliance", "Predatory Finance Defense", "Consumer Class Action Suits"]
+    },
+    "litigation": {
+      "number": "05",
+      "title": "Litigation",
+      "desc": "Our litigators are well-versed in representing clients across civil, commercial, construction, and contract disputes. We aggressively advocate for clients in state courts, appellate hearings, and international arbitration tribunals, focusing on cost-effective, strategic dispute resolution.",
+      "services": ["Commercial Court Advocacy", "Contract Enforcement", "Business Torts Litigation", "International Arbitration", "Injunctions & Enforcement", "Appellate Court representation"]
+    },
+    "competition": {
+      "number": "06",
+      "title": "Competition Law",
+      "desc": "Navigating modern antitrust and competition laws requires deep strategic insight. We represent corporate clients in cartel investigations, merger clearances, abuse of dominance inquiries, and provide preemptive compliance audits to minimize anti-competitive risks.",
+      "services": ["Merger Control Clearance", "Cartel Investigation Defense", "Abuse of Dominance Advice", "Preemptive Antitrust Audits", "Competition Compliance Programs", "Distribution & License Agreements"]
+    },
+    "international": {
+      "number": "07",
+      "title": "International Law",
+      "desc": "Specialized legal services addressing cross-border commercial transactions, international trade disputes, customs regulations, maritime issues, and compliance with bilateral treaties, serving as a trusted global counsel in multi-jurisdictional matters.",
+      "services": ["Cross-Border Commercial Transactions", "International Arbitral Tribunals", "Sanctions & Trade Compliance", "Maritime & Shipping Law", "Treaty Compliance Advisory", "Multi-Jurisdictional Disputes"]
+    },
+    "tax": {
+      "number": "08",
+      "title": "Tax Law",
+      "desc": "Providing comprehensive corporate and private tax advisory to structure business transactions, cross-border deals, and estate plans in the most tax-efficient manner, helping clients successfully resolve complex audits and tax authority disputes.",
+      "services": ["Corporate Tax Structuring", "International Tax Planning", "Wealth & Asset Protection", "Tax Audit Representation", "VAT & Indirect Taxation Advisory", "Inheritance Tax Strategy"]
+    },
+    "cta": {
+      "heading": "Need Legal Counsel?",
+      "body": "Our team is ready to assist with your legal matter. Contact us for a confidential consultation.",
+      "button": "Contact Our Team"
+    }
+  },
+
+  "ourLawyers": {
+    "pageTitle": "Our Lawyers | Celen LawFirm",
+    "pageHeader": {
+      "label": "Our Team",
+      "heading": "Our Lawyers",
+      "subtext": "Experienced advocates dedicated to achieving the best outcomes for our clients"
+    },
+    "joinTeam": {
+      "heading": "Join Our Team",
+      "body": "We are always interested in hearing from talented legal professionals who share our commitment to excellence. If you are interested in a career at Celen LawFirm, we would welcome your inquiry.",
+      "button": "View Opportunities"
+    }
+  },
+
+  "onlineSecurity": {
+    "pageTitle": "Online Security | Celen LawFirm",
+    "pageHeader": {
+      "label": "Client Resources",
+      "heading": "Online Security Center",
+      "subtext": "Practical guidance to help you stay safe in the digital landscape while engaging with our legal services"
+    },
+    "intro": {
+      "label": "Staying Safe Online",
+      "heading": "Take a Walk on the Safe Side",
+      "body": "In today's digital environment, protecting your personal and legal information online is more important than ever. At Celen LawFirm, we are committed not only to providing exceptional legal services but also to ensuring that your interactions with us remain secure."
+    },
+    "sidebar": {
+      "heading": "Topics",
+      "topics": ["General Guidelines", "Browser Software", "Cookies", "Anti-Spyware", "Email Security", "Communication with Our Firm"]
+    },
+    "cta": {
+      "heading": "Have a Security Concern?",
+      "body": "If you suspect any unauthorized access to your information or have received suspicious communications claiming to be from Celen LawFirm, please contact us immediately.",
+      "button": "Report a Security Concern"
+    }
+  },
+
+  "contactUs": {
+    "pageTitle": "Contact Us | Celen LawFirm",
+    "pageHeader": {
+      "label": "Contact",
+      "heading": "Get in Touch",
+      "subtext": "We welcome your inquiries. Reach out to discuss how Celen LawFirm can assist with your legal needs."
+    },
+    "form": {
+      "heading": "Send Us a Message",
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message Sent \u2713",
+      "error": "Error \u2014 Retry",
+      "successMsg": "Thank you for your message. We will get back to you shortly.",
+      "subjects": {
+        "placeholder": "Select a subject",
+        "general": "General Inquiry",
+        "corporate": "Corporate and Commercial Law",
+        "employment": "Employment and Labour Law",
+        "healthcare": "Pharmaceutical and Healthcare Law",
+        "consumer": "Consumer Law",
+        "litigation": "Litigation",
+        "competition": "Competition Law",
+        "international": "International Law",
+        "tax": "Tax Law",
+        "career": "Career Opportunity",
+        "security": "Security Concern",
+        "other": "Other"
+      }
+    },
+    "firmInfo": {
+      "contactDetails": "Contact Details",
+      "office": "Our Office",
+      "quickLinks": "Quick Links",
+      "followUs": "Follow Us",
+      "hours": "Monday \u2013 Friday: 09:00 \u2013 18:00"
+    },
+    "faq": {
+      "label": "Frequently Asked",
+      "heading": "Common Questions",
+      "q1": "What should I bring to my initial consultation?",
+      "a1": "Please bring any relevant documents, correspondence, contracts, or court papers related to your matter. Also bring a form of identification. The more information you provide, the better we can assess your situation.",
+      "q2": "How are your legal fees structured?",
+      "a2": "Our fee structure varies depending on the nature and complexity of the matter. We offer hourly rates, fixed fees for certain services, and retainer arrangements. We will discuss fees transparently during your initial consultation.",
+      "q3": "Do you offer services in languages other than English?",
+      "a3": "Yes, our team includes fluent speakers of Turkish, French, German, Spanish, and Arabic. We can also arrange interpreter services for other languages as needed.",
+      "q4": "How do I know if my online communications with the firm are secure?",
+      "a4": "We use encrypted email and a secure client portal for document exchange. Look for 'https://' in the URL and never share passwords via email. For more information, visit our Online Security page.",
+      "q5": "What geographic areas do you serve?",
+      "a5": "While based in Ankara, Turkey, we serve clients nationally and internationally. We have experience with cross-border transactions and can coordinate with correspondent firms worldwide."
+    }
+  },
+
+  "footer": {
+    "tagline": "International Legal Excellence Since 2001",
+    "navigate": "Navigate",
+    "expertise": "Expertise",
+    "contact": "Contact",
+    "cta": "Get in Touch",
+    "copyright": "\u00a9 2026 Celen LawFirm. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

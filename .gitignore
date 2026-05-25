@@ -1,0 +1,19 @@
+# IDE and Editor Files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node / Cache / Temp Files
+node_modules/
+npm-debug.log*
+.eslintcache
+.refact/

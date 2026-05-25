@@ -1,0 +1,317 @@
+/* ========================================
+   CELEN CHAMBERS — CONTACT US PAGE
+   ======================================== */
+
+/* ── Contact Form & Info Layout ── */
+.contact-layout {
+  background: var(--white);
+}
+
+.contact-layout__grid {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 8rem;
+  align-items: start;
+}
+
+/* ── Contact Form ── */
+.contact-form-wrapper {
+  background: var(--off-white);
+  border-radius: var(--radius-lg);
+  padding: 4.8rem;
+}
+
+.contact-form__heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-bottom: 3.2rem;
+}
+
+.form-group {
+  margin-bottom: 2.4rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.8rem;
+}
+
+.form-group label .required {
+  color: var(--error);
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+  width: 100%;
+  height: 5rem;
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 0 1.6rem;
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  transition: border-color var(--dur-fast), box-shadow var(--dur-fast);
+}
+
+.form-input:focus,
+.form-textarea:focus,
+.form-select:focus {
+  outline: none;
+  border-color: var(--blue-accent);
+  box-shadow: 0 0 0 3px rgba(30, 90, 168, 0.1);
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--text-muted);
+}
+
+.form-input.error,
+.form-textarea.error,
+.form-select.error {
+  border-color: var(--error);
+}
+
+.form-textarea {
+  height: 16rem;
+  padding: 1.6rem;
+  resize: vertical;
+}
+
+.form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='%238A95AA' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 1.2rem center;
+  background-size: 2rem;
+  padding-right: 4rem;
+  cursor: pointer;
+}
+
+.form-error {
+  font-size: 1.2rem;
+  color: var(--error);
+  margin-top: 0.6rem;
+  display: none;
+}
+
+.form-error.visible {
+  display: block;
+}
+
+/* Honeypot */
+.form-honeypot {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+/* Submit button states */
+.btn-submit {
+  position: relative;
+}
+
+.btn-submit .spinner {
+  display: none;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 2px solid rgba(255,255,255,0.3);
+  border-top-color: var(--white);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+.btn-submit.loading .btn-text {
+  opacity: 0.7;
+}
+
+.btn-submit.loading .spinner {
+  display: block;
+  position: absolute;
+}
+
+.btn-submit.success {
+  background: var(--success);
+  border-color: var(--success);
+}
+
+.btn-submit.error {
+  background: var(--error);
+  border-color: var(--error);
+}
+
+.form-success-msg {
+  display: none;
+  padding: 2rem;
+  background: rgba(46, 139, 87, 0.1);
+  border: 1px solid var(--success);
+  border-radius: var(--radius-sm);
+  color: var(--success);
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.form-success-msg.visible {
+  display: block;
+}
+
+/* ── Firm Information ── */
+.firm-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.firm-info__block h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-bottom: 1.6rem;
+}
+
+.firm-info__block p {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 0.6rem;
+}
+
+.firm-info__block a {
+  color: var(--blue-accent);
+  transition: color var(--dur-fast);
+}
+
+.firm-info__block a:hover {
+  color: var(--deep-blue);
+}
+
+.firm-info__map {
+  width: 100%;
+  height: 24rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-light);
+  overflow: hidden;
+}
+
+.firm-info__map iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.firm-info__socials {
+  display: flex;
+  gap: 1.6rem;
+  margin-top: 1.2rem;
+}
+
+.firm-info__socials a {
+  color: var(--text-secondary);
+  transition: color var(--dur-fast);
+}
+
+.firm-info__socials a:hover {
+  color: var(--blue-accent);
+}
+
+/* ── FAQ Accordion ── */
+.faq-section {
+  background: var(--off-white);
+}
+
+.faq-section .section-header {
+  margin-bottom: 4rem;
+}
+
+.accordion {
+  max-width: var(--content-narrow);
+  margin: 0 auto;
+}
+
+.accordion__item {
+  border-bottom: 1px solid var(--border-light);
+}
+
+.accordion__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2.4rem 0;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-align: left;
+}
+
+.accordion__question {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  padding-right: 2rem;
+}
+
+.accordion__icon {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.4rem;
+  font-weight: 400;
+  color: var(--blue-accent);
+  transition: transform var(--dur-normal) var(--ease-smooth);
+  flex-shrink: 0;
+}
+
+.accordion__item.open .accordion__icon {
+  transform: rotate(45deg);
+}
+
+.accordion__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--dur-normal) var(--ease-smooth),
+              opacity var(--dur-normal) var(--ease-smooth);
+  opacity: 0;
+}
+
+.accordion__item.open .accordion__body {
+  opacity: 1;
+}
+
+.accordion__answer {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  padding-bottom: 2.4rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .contact-layout__grid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  .contact-form-wrapper {
+    padding: 3rem;
+  }
+  
+  .firm-info {
+    order: -1;
+  }
+  
+  .accordion__question {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,492 @@
+/* ========================================
+   CELEN CHAMBERS — HOME PAGE STYLES
+   ======================================== */
+
+/* ── Hero Section ── */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 70rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  background-image: url('../images/hero-background.jpg');
+  background-size: cover;
+  background-position: center;
+  animation: heroBgScale var(--dur-hero) var(--ease-smooth) forwards;
+  will-change: transform;
+}
+
+.hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, 
+    rgba(15, 43, 82, 0.55) 0%, 
+    rgba(15, 43, 82, 0.3) 50%, 
+    rgba(10, 21, 37, 0.75) 100%);
+  z-index: 1;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 10;
+  padding-left: 8rem;
+  padding-bottom: 12rem;
+  max-width: 70%;
+}
+
+.hero__label {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  color: var(--white);
+  opacity: 0;
+  animation: heroFadeUpSmall var(--dur-normal) var(--ease-default) 200ms forwards;
+}
+
+.hero__label-line {
+  width: 3.2rem;
+  height: 1px;
+  background: var(--white);
+  display: inline-block;
+}
+
+.hero__title {
+  color: var(--white);
+  margin-top: 2rem;
+  opacity: 0;
+  animation: heroFadeUp var(--dur-hero) var(--ease-gentle) 400ms forwards;
+}
+
+.hero__title-sub {
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 0.8rem;
+  opacity: 0;
+  animation: heroFadeUp var(--dur-hero) var(--ease-gentle) 550ms forwards;
+}
+
+.hero__subtitle {
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 56rem;
+  margin-top: 2.4rem;
+  opacity: 0;
+  animation: heroFadeUpSmall var(--dur-normal) var(--ease-default) 800ms forwards;
+}
+
+.hero__cta {
+  display: flex;
+  gap: 2rem;
+  margin-top: 4rem;
+  opacity: 0;
+  animation: heroFadeUpSmall var(--dur-normal) var(--ease-default) 1000ms forwards;
+}
+
+.hero__scroll {
+  position: absolute;
+  bottom: 4rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.hero__scroll-line {
+  width: 1px;
+  height: 4rem;
+  background: rgba(255, 255, 255, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__scroll-dot {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: var(--white);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scrollIndicator 1.5s var(--ease-default) infinite;
+}
+
+.hero__scroll-text {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.4);
+  letter-spacing: 0.1em;
+}
+
+/* ── About Section ── */
+.about {
+  background: var(--white);
+  text-align: center;
+}
+
+.about .heading-l {
+  color: var(--text-primary);
+}
+
+.about__body {
+  max-width: 64rem;
+  margin: 3.2rem auto 0;
+  color: var(--text-secondary);
+}
+
+.about__body + .about__body {
+  margin-top: 2rem;
+}
+
+.about__cta {
+  margin-top: 4rem;
+}
+
+/* ── Practice Areas Overview ── */
+.practice-overview {
+  background: var(--off-white);
+}
+
+.practice-overview__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--grid-gap);
+}
+
+.practice-card {
+  background: var(--white);
+  padding: 4rem;
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--blue-accent);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
+  transition: transform var(--dur-normal) var(--ease-smooth),
+              box-shadow var(--dur-normal) var(--ease-smooth);
+}
+
+.practice-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+.practice-card__number {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 4.8rem;
+  font-weight: 300;
+  color: var(--border-light);
+  line-height: 1;
+}
+
+.practice-card__title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--text-primary);
+  margin-top: 1.2rem;
+}
+
+.practice-card__desc {
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+  margin-top: 1.2rem;
+  line-height: 1.6;
+}
+
+.practice-card__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: var(--blue-accent);
+  font-weight: 500;
+}
+
+.practice-overview__cta {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+/* ── Featured Lawyers ── */
+.featured-lawyers {
+  background: var(--deep-blue);
+  overflow: hidden;
+}
+
+.featured-lawyers__layout {
+  display: grid;
+  grid-template-columns: 0.4fr 0.6fr;
+  gap: 6rem;
+  align-items: center;
+}
+
+.featured-lawyers__header .label-xl {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.featured-lawyers__header .heading-l {
+  color: var(--white);
+}
+
+.featured-lawyers__header .body-l {
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 2.4rem;
+  max-width: 40rem;
+}
+
+.featured-lawyers__header .btn-secondary-white {
+  margin-top: 4rem;
+}
+
+.featured-lawyers__scroll {
+  display: flex;
+  gap: 3.2rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 2rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+.featured-lawyers__scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.lawyer-preview {
+  flex: 0 0 32rem;
+  scroll-snap-align: start;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: var(--radius-md);
+  padding: 3.2rem;
+}
+
+.lawyer-preview__photo {
+  width: 100%;
+  aspect-ratio: 3/4;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  filter: grayscale(30%);
+}
+
+.lawyer-preview__name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.lawyer-preview__title {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.4rem;
+}
+
+.lawyer-preview__bio {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 1.2rem;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.lawyer-preview__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.6rem;
+  font-size: 1.2rem;
+  color: var(--blue-accent);
+}
+
+/* ── Security CTA Section ── */
+.security-cta {
+  background: var(--white);
+}
+
+.security-cta__layout {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  gap: 6rem;
+  align-items: center;
+}
+
+.security-cta__content .label-xl {
+  color: var(--blue-accent);
+}
+
+.security-cta__content .heading-l {
+  color: var(--text-primary);
+}
+
+.security-cta__content .body-l {
+  color: var(--text-secondary);
+  margin-top: 2.4rem;
+}
+
+.security-cta__list {
+  margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.security-cta__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.security-cta__item svg {
+  flex-shrink: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  color: var(--blue-accent);
+  margin-top: 0.2rem;
+}
+
+.security-cta__btn {
+  margin-top: 4rem;
+}
+
+.security-cta__image {
+  position: relative;
+}
+
+.security-cta__image img {
+  width: calc(100% + 4rem);
+  border-radius: var(--radius-lg);
+  margin-left: -4rem;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+}
+
+/* ── Contact Invitation ── */
+.contact-invite {
+  background: var(--light-blue-grey);
+  text-align: center;
+}
+
+.contact-invite .label-xl {
+  color: var(--blue-accent);
+}
+
+.contact-invite .heading-l {
+  color: var(--text-primary);
+}
+
+.contact-invite .body-l {
+  color: var(--text-secondary);
+  margin-top: 2.4rem;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-invite__cta {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .featured-lawyers__layout {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  .featured-lawyers__header {
+    text-align: center;
+  }
+  
+  .featured-lawyers__header .body-l {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .security-cta__layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .security-cta__image {
+    order: -1;
+  }
+  
+  .security-cta__image img {
+    width: 100%;
+    margin-left: 0;
+    aspect-ratio: 16/9;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60rem;
+  }
+  
+  .hero__content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .hero__label {
+    justify-content: center;
+  }
+  
+  .hero__cta {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero__cta .btn {
+    width: 100%;
+    max-width: 32rem;
+  }
+  
+  .hero__scroll {
+    display: none;
+  }
+  
+  .practice-overview__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .practice-card {
+    padding: 3rem;
+  }
+  
+  .lawyer-preview {
+    flex: 0 0 28rem;
+  }
+  
+  .contact-invite__cta {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-invite__cta .btn {
+    width: 100%;
+    max-width: 32rem;
+  }
+}

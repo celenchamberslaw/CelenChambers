@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Security | Celen Chambers</title>
+  <meta name="description" content="Stay safe online with Celen Chambers' security guidance. Learn about safe browsing, browser security, cookies, anti-spyware, and secure communication practices.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/online-security.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  
+  <header class="navbar scrolled" id="navbar" role="banner">
+    <a href="index.html" class="navbar__logo" aria-label="Celen Chambers Home">
+      <svg class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+        <path d="M8 16C8 11.58 11.58 8 16 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M24 16C24 20.42 20.42 24 16 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      Celen Chambers
+    </a>
+    
+    <nav class="navbar__nav" role="navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="practice-areas.html">Practice Areas</a>
+      <a href="our-lawyers.html">Our Lawyers</a>
+      <a href="online-security.html" class="active">Online Security</a>
+      <a href="contact-us.html">Contact Us</a>
+    </nav>
+    
+    <div class="navbar__lang dropdown" aria-label="Language selector">
+      <div class="dropdown__toggle">
+        <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+          stroke-linecap="round" stroke-linejoin="round" class="lang-icon">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="2" y1="12" x2="22" y2="12"></line>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+        </svg>
+        <span id="current-lang">EN</span>
+        <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </div>
+      <div class="dropdown__menu">
+        <button class="active" data-lang="en" aria-label="English">English</button>
+        <button data-lang="tr" aria-label="Turkish">Türkçe</button>
+        <button data-lang="pt" aria-label="Portuguese">Português</button>
+        <button data-lang="it" aria-label="Italian">Italiano</button>
+        <button data-lang="de" aria-label="German">Deutsch</button>
+        <button data-lang="es" aria-label="Spanish">Español</button>
+        <button data-lang="zh" aria-label="Chinese">中文</button>
+        <button data-lang="fr" aria-label="French">Français</button>
+        <button data-lang="ar" aria-label="Arabic">العربية</button>
+        <button data-lang="ru" aria-label="Russian">Русский</button>
+      </div>
+    </div>
+    
+    <button class="navbar__toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+  
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="practice-areas.html">Practice Areas</a>
+    <a href="our-lawyers.html">Our Lawyers</a>
+    <a href="online-security.html">Online Security</a>
+    <a href="contact-us.html">Contact Us</a>
+    <div class="mobile-menu__lang dropdown">
+      <div class="dropdown__menu--static">
+        <div class="mobile-lang-header">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span>Select Language</span>
+        </div>
+        <button class="active" data-lang="en">English</button>
+        <button data-lang="tr">Türkçe</button>
+        <button data-lang="pt">Português</button>
+        <button data-lang="it">Italiano</button>
+        <button data-lang="de">Deutsch</button>
+        <button data-lang="es">Español</button>
+        <button data-lang="zh">中文</button>
+        <button data-lang="fr">Français</button>
+        <button data-lang="ar">العربية</button>
+        <button data-lang="ru">Русский</button>
+      </div>
+    </div>
+  </div>
+  
+  <main id="main">
+    <!-- Page Header -->
+    <section class="page-header" aria-label="Page header">
+      <div class="page-header__bg" style="background-image: url('images/page-header-security.jpg');" role="img" aria-label="Digital security visualization"></div>
+      <div class="page-header__content">
+        <p class="label-xl" data-animate="heading">Client Resources</p>
+        <h1 class="display-l" data-animate="heading" data-delay="1">Online Security Center</h1>
+        <p class="body-l" data-animate="fade-up" data-delay="2">Practical guidance to help you stay safe in the digital landscape while engaging with our legal services</p>
+        <nav class="page-header__breadcrumb" aria-label="Breadcrumb" data-animate="fade-up" data-delay="3">
+          <a href="index.html">Home</a> / Online Security
+        </nav>
+      </div>
+    </section>
+    
+    <!-- Security Introduction -->
+    <section class="section-padding" style="background: var(--white);" aria-labelledby="security-intro-heading">
+      <div class="container-narrow" data-animate="fade-up">
+        <p class="label-xl" style="color: var(--blue-accent); text-align: center;">Staying Safe Online</p>
+        <div class="decorative-line"></div>
+        <h2 id="security-intro-heading" class="heading-l" style="text-align: center;">Take a Walk on the Safe Side</h2>
+        <p class="body-l" style="color: var(--text-secondary); text-align: center; margin-top: 2.4rem;">
+          In today's digital environment, protecting your personal and legal information online is more important than ever. At Celen Chambers, we are committed not only to providing exceptional legal services but also to ensuring that your interactions with us remain secure. This resource center provides essential guidance on safe online practices.
+        </p>
+      </div>
+    </section>
+    
+    <!-- Security Guidelines with Sidebar -->
+    <section class="security-content section-padding" aria-label="Security guidelines">
+      <div class="container">
+        
+        <!-- Mobile topic tabs -->
+        <nav class="mobile-topics" aria-label="Topic navigation">
+          <a href="#general" class="active">General</a>
+          <a href="#browser">Browser</a>
+          <a href="#cookies">Cookies</a>
+          <a href="#antispyware">Anti-Spyware</a>
+          <a href="#email">Email</a>
+          <a href="#communication">Communication</a>
+        </nav>
+        
+        <div class="security-content__layout">
+          
+          <!-- Sticky Sidebar -->
+          <aside class="security-sidebar" aria-label="Topic navigation">
+            <p class="security-sidebar__heading">Topics</p>
+            <nav class="security-sidebar__nav">
+              <a href="#general" class="active">General Guidelines</a>
+              <a href="#browser">Browser Software</a>
+              <a href="#cookies">Cookies</a>
+              <a href="#antispyware">Anti-Spyware</a>
+              <a href="#email">Email Security</a>
+              <a href="#communication">Communication with Our Firm</a>
+            </nav>
+          </aside>
+          
+          <!-- Content Sections -->
+          <div class="security-sections">
+            
+            <!-- 1. General Guidelines -->
+            <section class="security-section" id="general">
+              <h3 class="security-section__title">General Guidelines</h3>
+              <div class="security-section__body">
+                <ul class="guidelines-list">
+                  <li class="guideline-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Avoid using public terminals (such as Internet cafes) for sending sensitive legal information.
+                  </li>
+                  <li class="guideline-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Be aware of the higher risk of interception during a wireless connection. Only send your sensitive legal information via a wireless hotspot if certain that you have an updated anti-virus and spyware programme and perform regular system scans.
+                  </li>
+                  <li class="guideline-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Never access the site via a link. Rather type the address into the browser address bar or save the address as a 'favorite'.
+                  </li>
+                  <li class="guideline-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Ensure your computer software is up-to-date.
+                  </li>
+                  <li class="guideline-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Install and maintain reputable anti-virus and anti-spyware software.
+                  </li>
+                  <li class="guideline-item">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                    Use strong, unique passwords for all accounts and change them regularly.
+                  </li>
+                </ul>
+              </div>
+            </section>
+            
+            <!-- 2. Browser Software -->
+            <section class="security-section" id="browser">
+              <h3 class="security-section__title">What's What: Online Terminology</h3>
+              <div class="security-section__body">
+                <dl class="definition-list">
+                  <div>
+                    <dt class="definition-term">Browser</dt>
+                    <dd class="definition-desc">Browser software provides you with the means to view a webpage. Without browser software, you would not be able to surf the Internet.</dd>
+                  </div>
+                  <div>
+                    <dt class="definition-term">Cookies</dt>
+                    <dd class="definition-desc">Cookies are a collection of information, usually including a username and the current date and time, stored on the local computer of a person using the Internet. It is used by websites to identify users who have previously registered or visited the site.</dd>
+                  </div>
+                  <div>
+                    <dt class="definition-term">Cache</dt>
+                    <dd class="definition-desc">The cache stores recently viewed webpages and images so that they load faster if you return to the same page. While this improves browsing speed, it can also store sensitive information that others might access on a shared computer.</dd>
+                  </div>
+                  <div>
+                    <dt class="definition-term">Encryption</dt>
+                    <dd class="definition-desc">Encryption is the process of converting information into a code to prevent unauthorized access. Look for 'https://' and a padlock icon in your browser to ensure a connection is encrypted.</dd>
+                  </div>
+                </dl>
+              </div>
+            </section>
+            
+            <!-- 3. Cookies -->
+            <section class="security-section" id="cookies">
+              <h3 class="security-section__title">Cookies</h3>
+              <div class="security-section__body">
+                <p>Cookies are small text files stored on your device by websites you visit. They serve various purposes, from remembering your login details to tracking your browsing behavior for advertising.</p>
+                <p><strong>Managing Cookies:</strong> All modern browsers allow you to control cookie settings. You can choose to block third-party cookies, delete existing cookies, or receive a notification when a website attempts to place a cookie on your device.</p>
+                <div class="callout">
+                  <p><strong>For legal service users:</strong> We recommend regularly clearing cookies, especially after accessing sensitive legal portals. Always log out of secure sessions rather than simply closing the browser.</p>
+                </div>
+              </div>
+            </section>
+            
+            <!-- 4. Anti-Spyware -->
+            <section class="security-section" id="antispyware">
+              <h3 class="security-section__title">Anti-Spyware Program</h3>
+              <div class="security-section__body">
+                <p>This is a program that protects your PC against spyware and helps to keep your computer and personal details secure. e.g. Webroot SecureAnywhere. Spyware is software that secretly monitors your online activities, captures keystrokes, or collects personal information without your consent. It can be installed on your computer without your knowledge, often bundled with free software downloads.</p>
+                <ul class="recommendations-list">
+                  <li class="recommendation-item">Install a reputable anti-spyware program and keep it updated</li>
+                  <li class="recommendation-item">Run regular system scans, at least weekly</li>
+                  <li class="recommendation-item">Be cautious when downloading free software from the Internet</li>
+                  <li class="recommendation-item">Read license agreements before installing software</li>
+                  <li class="recommendation-item">Keep your operating system and browser updated with security patches</li>
+                </ul>
+              </div>
+            </section>
+            
+            <!-- 5. Email Security -->
+            <section class="security-section" id="email">
+              <h3 class="security-section__title">Email Security</h3>
+              <div class="security-section__body">
+                <p>Email remains one of the most common vectors for cyber attacks. When communicating with our firm or any legal service provider, exercise caution with email.</p>
+                <div class="callout callout--warning">
+                  <p><strong>Important warnings:</strong></p>
+                  <p>We will never ask you to provide passwords, PINs, or full banking details via email.</p>
+                  <p>Be suspicious of unexpected emails claiming to be from our firm — verify by calling us directly.</p>
+                  <p>Do not open attachments from unknown senders.</p>
+                </div>
+                <p style="margin-top: 2rem;">When in doubt about the authenticity of a communication, contact our office directly using the phone number from our official website, not one provided in a suspicious email.</p>
+              </div>
+            </section>
+            
+            <!-- 6. Communication with Our Firm -->
+            <section class="security-section" id="communication">
+              <h3 class="security-section__title">Communication with Our Firm</h3>
+              <div class="security-section__body">
+                <p>At Celen Chambers, we employ multiple layers of security to protect your confidential information.</p>
+                <p>Our secure client portal uses bank-grade encryption (256-bit SSL) for all document exchanges.</p>
+                <p>When we send sensitive documents, we use password-protected files when appropriate. Passwords are communicated through a separate channel (e.g., SMS or phone call).</p>
+                <p>For highly sensitive matters, we may recommend in-person meetings or secure video conferencing rather than email communication.</p>
+                <p>If you suspect any security concern related to your case or our communications, contact us immediately.</p>
+                <div class="callout callout--success">
+                  <p><strong>Your security is a shared responsibility.</strong> By following these guidelines and maintaining open communication with our team, we can ensure that your legal matters remain confidential and protected.</p>
+                </div>
+              </div>
+            </section>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Security Concern CTA -->
+    <section class="security-cta-section" aria-label="Report security concern">
+      <div class="container">
+        <h2 class="heading-m" data-animate="heading">Have a Security Concern?</h2>
+        <p class="body-l" data-animate="fade-up" data-delay="1">If you suspect any unauthorized access to your information or have received suspicious communications claiming to be from Celen Chambers, please contact us immediately.</p>
+        <a href="contact-us.html" class="btn btn-primary" data-animate="fade-up" data-delay="2">Report a Security Concern</a>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid" data-animate="fade-up">
+        <div>
+          <p class="footer__brand">Celen Chambers</p>
+          <p class="footer__tagline">International Legal Excellence Since 2001</p>
+          <div class="footer__socials">
+            <a href="#" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="X (Twitter)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733-16z"/><path d="M4 20l6.768-6.768m2.46-2.46L20 4"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__heading">Navigate</p>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="practice-areas.html">Practice Areas</a></li>
+            <li><a href="our-lawyers.html">Our Lawyers</a></li>
+            <li><a href="online-security.html">Online Security</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__heading">Expertise</p>
+          <ul class="footer__links">
+            <li><a href="practice-areas.html#corporate">Corporate Law</a></li>
+            <li><a href="practice-areas.html#litigation">Commercial Litigation</a></li>
+            <li><a href="practice-areas.html#wills">Wills &amp; Estates</a></li>
+            <li><a href="practice-areas.html#smallbusiness">Small Business</a></li>
+            <li><a href="practice-areas.html#cyber">Cybersecurity</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <p class="footer__heading">Contact</p>
+          <p>Celen Chambers, Ankara, Turkey</p>
+          <p><a href="mailto:info@celenchambers.com">info@celenchambers.com</a></p>
+          <p><a href="tel:+90312XXXXXX">+90 312 XXX XXXX</a></p>
+          <a href="contact-us.html" class="btn btn-secondary-white">Get in Touch</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Celen Chambers. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/app.js"></script>
+</body>
+</html>

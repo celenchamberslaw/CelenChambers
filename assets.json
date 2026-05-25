@@ -1,0 +1,163 @@
+[
+  {
+    "id": "hero-background",
+    "type": "image",
+    "method": "generate",
+    "ratio": "16:9",
+    "description": "A prestigious legal still life: golden brass scales of justice resting on stacked leather-bound law books, a wooden judge's gavel beside them, warm wood desk surface, soft natural window light from the left creating gentle shadows. Warm amber and brown tones, shallow depth of field. The mood is traditional authority, trust, and institutional gravitas."
+  },
+  {
+    "id": "practice-wills",
+    "type": "image",
+    "method": "generate",
+    "ratio": "16:9",
+    "description": "Elegant still life on a mahogany desk: legal documents with elegant script headings, a fine fountain pen, reading glasses, warm natural side-lighting. Conveys precision, care, and tradition in estate planning."
+  },
+  {
+    "id": "practice-corporate",
+    "type": "image",
+    "method": "generate",
+    "ratio": "16:9",
+    "description": "Modern glass office building exterior photographed from a low angle against a clear blue sky. Clean architectural lines, reflective glass surface, suggesting corporate professionalism and scale."
+  },
+  {
+    "id": "practice-litigation",
+    "type": "image",
+    "method": "generate",
+    "ratio": "16:9",
+    "description": "Interior of a dignified courtroom: the judge's bench with scales of justice, warm wood paneling, soft overhead lighting. Dignified, formal atmosphere conveying legal authority."
+  },
+  {
+    "id": "practice-smallbusiness",
+    "type": "image",
+    "method": "generate",
+    "ratio": "16:9",
+    "description": "A warm, inviting small business interior — perhaps a boutique shop or professional office — with natural light, clean modern furnishings, and an atmosphere of entrepreneurial energy."
+  },
+  {
+    "id": "practice-cyber",
+    "type": "image",
+    "method": "generate",
+    "ratio": "16:9",
+    "description": "Modern professional workspace with dual monitors showing abstract security visualizations, cool blue ambient lighting, clean desk setup. Contemporary and high-tech without being cold."
+  },
+  {
+    "id": "security-abstract",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Editorial-style photograph: a hand holding a modern smartphone displaying a subtle shield icon, soft blue ambient lighting, blurred contemporary office background. The image should feel reassuring, modern, and human — not alarmist."
+  },
+  {
+    "id": "partner-portrait-1",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a distinguished man in his 50s-60s, dark suit, confident but approachable expression, neutral gray studio background, soft diffused lighting. Legal professional gravitas."
+  },
+  {
+    "id": "partner-portrait-2",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a man in his 40s, business attire, warm approachable expression, neutral studio background, professional lighting. Media/entertainment lawyer energy."
+  },
+  {
+    "id": "partner-portrait-3",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a man in his 50s, warm expression, professional attire, neutral background, soft lighting. Conveying trustworthiness and experience in private client work."
+  },
+  {
+    "id": "partner-portrait-4",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a confident woman in her 40s, business attire, composed expression, neutral studio background, professional lighting. Corporate lawyer."
+  },
+  {
+    "id": "partner-portrait-5",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a distinguished Turkish man in his 50s, dark suit, dignified appearance, neutral studio background, soft diffused lighting. International arbitration lawyer."
+  },
+  {
+    "id": "partner-portrait-6",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a woman in her 30s, sharp professional expression, business attire, neutral studio background, clean lighting. Technology/IP lawyer."
+  },
+  {
+    "id": "partner-portrait-7",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a man in his 30s, friendly professional demeanor, business attire, neutral studio background, soft lighting. Employment lawyer."
+  },
+  {
+    "id": "partner-portrait-8",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a Turkish woman in her 30s, warm and professional expression, business attire, neutral studio background, soft lighting. Family/immigration lawyer."
+  },
+  {
+    "id": "partner-portrait-9",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a man in his 30s, confident expression, business attire, neutral studio background, clean lighting. Banking/finance lawyer."
+  },
+  {
+    "id": "partner-portrait-10",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a woman in her 30s, professional and approachable, business attire, neutral studio background, soft lighting. Environmental/ESG lawyer."
+  },
+  {
+    "id": "partner-portrait-11",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a Middle Eastern man in his 40s, professional demeanor, business attire, neutral studio background, soft lighting. International trade lawyer."
+  },
+  {
+    "id": "partner-portrait-12",
+    "type": "image",
+    "method": "generate",
+    "ratio": "3:4",
+    "description": "Professional headshot of a woman in her 30s, warm smile, business attire, neutral studio background, clean lighting. Technology/emerging law lawyer."
+  },
+  {
+    "id": "page-header-practice",
+    "type": "image",
+    "method": "generate",
+    "ratio": "21:9",
+    "description": "Close-up of law books on a shelf with warm ambient lighting, shallow depth of field. Suggests knowledge depth and legal tradition."
+  },
+  {
+    "id": "page-header-lawyers",
+    "type": "image",
+    "method": "generate",
+    "ratio": "21:9",
+    "description": "Abstract architectural detail of a modern law office interior — clean lines, natural materials, warm wood and stone, professional environment."
+  },
+  {
+    "id": "page-header-security",
+    "type": "image",
+    "method": "generate",
+    "ratio": "21:9",
+    "description": "Abstract digital security visualization — clean geometric patterns in blue tones, subtle hexagonal mesh pattern, suggesting digital protection and technology."
+  },
+  {
+    "id": "page-header-contact",
+    "type": "image",
+    "method": "generate",
+    "ratio": "21:9",
+    "description": "Elevated view of a modern cityscape at golden hour, showing contemporary architecture and urban landscape with warm tones. Suggests Ankara, Turkey."
+  }
+]

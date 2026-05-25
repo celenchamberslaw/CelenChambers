@@ -1,0 +1,153 @@
+/* ========================================
+   CELEN CHAMBERS — PRACTICE AREAS PAGE
+   ======================================== */
+
+/* ── Practice Area Detail Cards ── */
+.practice-details {
+  background: var(--white);
+}
+
+.practice-detail {
+  padding: 6rem 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.practice-detail:last-child {
+  border-bottom: none;
+}
+
+.practice-detail__layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+  align-items: center;
+}
+
+/* Odd cards: image left, text right */
+/* Even cards: text left, image right */
+.practice-detail:nth-child(even) .practice-detail__layout {
+  direction: rtl;
+}
+
+.practice-detail:nth-child(even) .practice-detail__content,
+.practice-detail:nth-child(even) .practice-detail__image {
+  direction: ltr;
+}
+
+.practice-detail__image img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  border-radius: var(--radius-lg);
+  object-fit: cover;
+}
+
+.practice-detail__number {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 8rem;
+  font-weight: 300;
+  color: var(--border-light);
+  line-height: 1;
+  opacity: 0.5;
+}
+
+.practice-detail__title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.2rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  margin-top: 1rem;
+}
+
+.practice-detail__desc {
+  font-size: 1.7rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+  margin-top: 2rem;
+}
+
+.practice-detail__services {
+  margin-top: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.practice-detail__service {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1.5rem;
+  color: var(--text-secondary);
+}
+
+.practice-detail__service::before {
+  content: '';
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  background: var(--blue-accent);
+  flex-shrink: 0;
+}
+
+.practice-detail__link {
+  margin-top: 3.2rem;
+}
+
+/* ── CTA Banner ── */
+.cta-banner {
+  background: var(--deep-blue);
+  padding: 8rem 0;
+  text-align: center;
+}
+
+.cta-banner .heading-m {
+  color: var(--white);
+}
+
+.cta-banner .body-l {
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 1.6rem;
+  max-width: 56rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-banner .btn {
+  margin-top: 3.2rem;
+  background: var(--white);
+  color: var(--deep-blue);
+  border-color: var(--white);
+}
+
+.cta-banner .btn:hover {
+  background: var(--off-white);
+  border-color: var(--off-white);
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .practice-detail__layout {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+  
+  .practice-detail:nth-child(even) .practice-detail__layout {
+    direction: ltr;
+  }
+  
+  .practice-detail__image {
+    order: -1;
+  }
+  
+  .practice-detail__image img {
+    aspect-ratio: 16/9;
+  }
+  
+  .practice-detail__number {
+    font-size: 6rem;
+  }
+  
+  .practice-detail__title {
+    font-size: 2.4rem;
+  }
+}

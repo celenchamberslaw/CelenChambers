@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practice Areas | Celen LawFirm</title>
+  <meta name="description" content="Explore the comprehensive legal services offered by Celen LawFirm: Corporate, Commercial, Employment, Healthcare, Consumer, Litigation, Competition, Tax, and International Law.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/practice-areas.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  
+  <header class="navbar scrolled" id="navbar" role="banner">
+    <a href="index.html" class="navbar__logo" aria-label="Celen LawFirm Home">
+      <svg class="navbar__logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2"/>
+        <path d="M8 16C8 11.58 11.58 8 16 8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <path d="M24 16C24 20.42 20.42 24 16 24" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+      Celen LawFirm
+    </a>
+    
+    <nav class="navbar__nav" role="navigation" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="practice-areas.html" class="active">Practice Areas</a>
+      <a href="our-lawyers.html">Our Lawyers</a>
+      <a href="online-security.html">Online Security</a>
+      <a href="contact-us.html">Contact Us</a>
+    </nav>
+    
+    <div class="navbar__lang dropdown" aria-label="Language selector">
+      <div class="dropdown__toggle">
+        <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+          stroke-linecap="round" stroke-linejoin="round" class="lang-icon">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="2" y1="12" x2="22" y2="12"></line>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+        </svg>
+        <span id="current-lang">EN</span>
+        <svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2" fill="none"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M6 9l6 6 6-6" />
+        </svg>
+      </div>
+      <div class="dropdown__menu">
+        <button class="active" data-lang="en" aria-label="English">English</button>
+        <button data-lang="tr" aria-label="Turkish">Türkçe</button>
+        <button data-lang="pt" aria-label="Portuguese">Português</button>
+        <button data-lang="it" aria-label="Italian">Italiano</button>
+        <button data-lang="de" aria-label="German">Deutsch</button>
+        <button data-lang="es" aria-label="Spanish">Español</button>
+        <button data-lang="zh" aria-label="Chinese">中文</button>
+        <button data-lang="fr" aria-label="French">Français</button>
+        <button data-lang="ar" aria-label="Arabic">العربية</button>
+        <button data-lang="ru" aria-label="Russian">Русский</button>
+      </div>
+    </div>
+    
+    <button class="navbar__toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+  
+  <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="practice-areas.html">Practice Areas</a>
+    <a href="our-lawyers.html">Our Lawyers</a>
+    <a href="online-security.html">Online Security</a>
+    <a href="contact-us.html">Contact Us</a>
+    <div class="mobile-menu__lang dropdown">
+      <div class="dropdown__menu--static">
+        <div class="mobile-lang-header">
+          <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none"
+            stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          <span>Select Language</span>
+        </div>
+        <button class="active" data-lang="en">English</button>
+        <button data-lang="tr">Türkçe</button>
+        <button data-lang="pt">Português</button>
+        <button data-lang="it">Italiano</button>
+        <button data-lang="de">Deutsch</button>
+        <button data-lang="es">Español</button>
+        <button data-lang="zh">中文</button>
+        <button data-lang="fr">Français</button>
+        <button data-lang="ar">العربية</button>
+        <button data-lang="ru">Русский</button>
+      </div>
+    </div>
+  </div>
+  
+  <main id="main">
+    <!-- Page Header -->
+    <section class="page-header" aria-label="Page header">
+      <div class="page-header__bg" style="background-image: url('images/page-header-practice.jpg');" role="img" aria-label="Law books on shelf"></div>
+      <div class="page-header__content">
+        <p class="label-xl" data-animate="heading">Practice Areas</p>
+        <h1 class="display-l" data-animate="heading" data-delay="1">Our Areas of Expertise</h1>
+        <p class="body-l" data-animate="fade-up" data-delay="2">Comprehensive legal services tailored to protect your interests and advance your objectives</p>
+        <nav class="page-header__breadcrumb" aria-label="Breadcrumb" data-animate="fade-up" data-delay="3">
+          <a href="index.html">Home</a> / Practice Areas
+        </nav>
+      </div>
+    </section>
+    
+    <!-- Practice Area Details -->
+    <section class="practice-details section-padding" aria-label="Practice area details">
+      <div class="container">
+        
+        <!-- Corporate and Commercial Law -->
+        <article class="practice-detail" id="corporate" data-animate="fade-up">
+          <div class="practice-detail__layout">
+            <div class="practice-detail__image" data-animate="fade-left" data-delay="1">
+              <img src="images/practice-corporate.jpg" alt="Modern glass office building against blue sky representing corporate law" loading="lazy">
+            </div>
+            <div class="practice-detail__content" data-animate="fade-right" data-delay="2">
+              <span class="practice-detail__number">01</span>
+              <h2 class="practice-detail__title">Corporate and Commercial Law</h2>
+              <p class="practice-detail__desc">Our attorneys focus on corporate legal work including formations, structuring, tax advisory, due diligence, memoranda writing, drafting documents, and state filings. We routinely draft commercial contracts, corporate resolutions, and shareholder agreements for owner-managed businesses and represent clients in transactional disputes.</p>
+              <ul class="practice-detail__services">
+                <li class="practice-detail__service">Corporate Formations &amp; Structuring</li>
+                <li class="practice-detail__service">M&amp;A Strategic Advisory</li>
+                <li class="practice-detail__service">Corporate Governance &amp; Compliance</li>
+                <li class="practice-detail__service">Contract Drafting &amp; Review</li>
+                <li class="practice-detail__service">Shareholder &amp; Venture Agreements</li>
+                <li class="practice-detail__service">Regulatory &amp; State Filings</li>
+              </ul>
+              <a href="contact-us.html" class="btn btn-tertiary practice-detail__link">Contact Us <span class="arrow">&rarr;</span></a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Employment and Labour Law -->
+        <article class="practice-detail" id="employment" data-animate="fade-up">
+          <div class="practice-detail__layout">
+            <div class="practice-detail__image" data-animate="fade-left" data-delay="1">
+              <img src="images/practice-employment.png" alt="Signed employment agreement contract and fountain pen on modern desk" loading="lazy">
+            </div>
+            <div class="practice-detail__content" data-animate="fade-right" data-delay="2">
+              <span class="practice-detail__number">02</span>
+              <h2 class="practice-detail__title">Employment and Labour Law</h2>
+              <p class="practice-detail__desc">We guide businesses and executives through the complex framework of labor laws. Our services include workplace policies, wage-and-hour compliance, discrimination defense, executive compensation, and representation before arbitration panels and labor courts to secure optimal resolutions.</p>
+              <ul class="practice-detail__services">
+                <li class="practice-detail__service">Employment Agreements &amp; Policies</li>
+                <li class="practice-detail__service">Collective Bargaining Agreements</li>
+                <li class="practice-detail__service">Workplace Compliance &amp; Audits</li>
+                <li class="practice-detail__service">Redundancy &amp; Restructuring</li>
+                <li class="practice-detail__service">Discrimination &amp; Harassment Claims</li>
+                <li class="practice-detail__service">Labour Dispute Representation</li>
+              </ul>
+              <a href="contact-us.html" class="btn btn-tertiary practice-detail__link">Contact Us <span class="arrow">&rarr;</span></a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Pharmaceutical and Healthcare Law -->
+        <article class="practice-detail" id="healthcare" data-animate="fade-up">
+          <div class="practice-detail__layout">
+            <div class="practice-detail__image" data-animate="fade-left" data-delay="1">
+              <img src="images/practice-healthcare.png" alt="Medical stethoscope resting on legal documents with scale of justice" loading="lazy">
+            </div>
+            <div class="practice-detail__content" data-animate="fade-right" data-delay="2">
+              <span class="practice-detail__number">03</span>
+              <h2 class="practice-detail__title">Pharmaceutical and Healthcare Law</h2>
+              <p class="practice-detail__desc">Advising life sciences companies, medical institutions, and practitioners on the rigorous regulatory environments surrounding medical devices, pharmaceuticals, clinical trials, and healthcare compliance, bridging the gap between healthcare innovation and regulatory mandates.</p>
+              <ul class="practice-detail__services">
+                <li class="practice-detail__service">Regulatory Compliance &amp; Licensing</li>
+                <li class="practice-detail__service">Clinical Trial Agreements</li>
+                <li class="practice-detail__service">IP Protection &amp; Patents</li>
+                <li class="practice-detail__service">Healthcare Fraud &amp; Abuse Advice</li>
+                <li class="practice-detail__service">Product Liability Defense</li>
+                <li class="practice-detail__service">Medical Negligence Representation</li>
+              </ul>
+              <a href="contact-us.html" class="btn btn-tertiary practice-detail__link">Contact Us <span class="arrow">&rarr;</span></a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Consumer Law -->
+        <article class="practice-detail" id="consumer" data-animate="fade-up">
+          <div class="practice-detail__layout">
+            <div class="practice-detail__image" data-animate="fade-left" data-delay="1">
+              <img src="images/practice-consumer.png" alt="Wooden gavel next to a shopping basket and consumer protection contract" loading="lazy">
+            </div>
+            <div class="practice-detail__content" data-animate="fade-right" data-delay="2">
+              <span class="practice-detail__number">04</span>
+              <h2 class="practice-detail__title">Consumer Law</h2>
+              <p class="practice-detail__desc">Our firm is dedicated to protecting consumers against unfair commercial practices, deceptive marketing, defective products, and predatory lending. We represent clients in individual actions and class litigation while advising companies on complying with consumer standards.</p>
+              <ul class="practice-detail__services">
+                <li class="practice-detail__service">Consumer Protection Claims</li>
+                <li class="practice-detail__service">Product Liability &amp; Safety</li>
+                <li class="practice-detail__service">Advertising &amp; Fair Trade Audits</li>
+                <li class="practice-detail__service">E-commerce &amp; Digital Compliance</li>
+                <li class="practice-detail__service">Predatory Finance Defense</li>
+                <li class="practice-detail__service">Consumer Class Action Suits</li>
+              </ul>
+              <a href="contact-us.html" class="btn btn-tertiary practice-detail__link">Contact Us <span class="arrow">&rarr;</span></a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Litigation -->
+        <article class="practice-detail" id="litigation" data-animate="fade-up">
+          <div class="practice-detail__layout">
+            <div class="practice-detail__image" data-animate="fade-left" data-delay="1">
+              <img src="images/practice-litigation.jpg" alt="Dignified courtroom interior representing litigation" loading="lazy">
+            </div>
+            <div class="practice-detail__content" data-animate="fade-right" data-delay="2">
+              <span class="practice-detail__number">05</span>
+              <h2 class="practice-detail__title">Litigation</h2>
+              <p class="practice-detail__desc">Our litigators are well-versed in representing clients across civil, commercial, construction, and contract disputes. We aggressively advocate for clients in state courts, appellate hearings, and international arbitration tribunals, focusing on cost-effective, strategic dispute resolution.</p>
+              <ul class="practice-detail__services">
+                <li class="practice-detail__service">Commercial Court Advocacy</li>
+                <li class="practice-detail__service">Contract Enforcement</li>
+                <li class="practice-detail__service">Business Torts Litigation</li>
+                <li class="practice-detail__service">International Arbitration</li>
+                <li class="practice-detail__service">Injunctions &amp; Enforcement</li>
+                <li class="practice-detail__service">Appellate Court Representation</li>
+              </ul>
+              <a href="contact-us.html" class="btn btn-tertiary practice-detail__link">Contact Us <span class="arrow">&rarr;</span></a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Competition Law -->
+        <article class="practice-detail" id="competition" data-animate="fade-up">
+          <div class="practice-detail__layout">
+            <div class="practice-detail__image" data-animate="fade-left" data-delay="1">
+              <img src="images/practice-cyber.jpg" alt="Antitrust and merger control graphics representing competition law" loading="lazy">
+            </div>
+            <div class="practice-detail__content" data-animate="fade-right" data-delay="2">
+              <span class="practice-detail__number">06</span>
+              <h2 class="practice-detail__title">Competition Law</h2>
+              <p class="practice-detail__desc">Navigating modern antitrust and competition laws requires deep strategic insight. We represent corporate clients in cartel investigations, merger clearances, abuse of dominance inquiries, and provide preemptive compliance audits to minimize anti-competitive risks.</p>
+              <ul class="practice-detail__services">
+                <li class="practice-detail__service">Merger Control Clearance</li>
+                <li class="practice-detail__service">Cartel Investigation Defense</li>
+                <li class="practice-detail__service">Abuse of Dominance Advice</li>
+                <li class="practice-detail__service">Preemptive Antitrust Audits</li>
+                <li class="practice-detail__service">Competition Compliance Programs</li>
+                <li class="practice-detail__service">Distribution &amp; License Agreements</li>
+              </ul>
+              <a href="contact-us.html" class="btn btn-tertiary practice-detail__link">Contact Us <span class="arrow">&rarr;</span></a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- International Law -->
+        <article class="practice-detail" id="international" data-animate="fade-up">
+          <div class="practice-detail__layout">
+            <div class="practice-detail__image" data-animate="fade-left" data-delay="1">
+              <img src="images/practice-international.png" alt="Desktop terrestrial globe and treaty agreements representing international law" loading="lazy">
+            </div>
+            <div class="practice-detail__content" data-animate="fade-right" data-delay="2">
+              <span class="practice-detail__number">07</span>
+              <h2 class="practice-detail__title">International Law</h2>
+              <p class="practice-detail__desc">Specialized legal services addressing cross-border commercial transactions, international trade disputes, customs regulations, maritime issues, and compliance with bilateral treaties, serving as a trusted global counsel in multi-jurisdictional matters.</p>
+              <ul class="practice-detail__services">
+                <li class="practice-detail__service">Cross-Border Commercial Transactions</li>
+                <li class="practice-detail__service">International Arbitral Tribunals</li>
+                <li class="practice-detail__service">Sanctions &amp; Trade Compliance</li>
+                <li class="practice-detail__service">Maritime &amp; Shipping Law</li>
+                <li class="practice-detail__service">Treaty Compliance Advisory</li>
+                <li class="practice-detail__service">Multi-Jurisdictional Disputes</li>
+              </ul>
+              <a href="contact-us.html" class="btn btn-tertiary practice-detail__link">Contact Us <span class="arrow">&rarr;</span></a>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Tax Law -->
+        <article class="practice-detail" id="tax" data-animate="fade-up">
+          <div class="practice-detail__layout">
+            <div class="practice-detail__image" data-animate="fade-left" data-delay="1">
+              <img src="images/practice-tax.png" alt="Financial charts, calculator, and audit folders representing tax law" loading="lazy">
+            </div>
+            <div class="practice-detail__content" data-animate="fade-right" data-delay="2">
+              <span class="practice-detail__number">08</span>
+              <h2 class="practice-detail__title">Tax Law</h2>
+              <p class="practice-detail__desc">Providing comprehensive corporate and private tax advisory to structure business transactions, cross-border deals, and estate plans in the most tax-efficient manner, helping clients successfully resolve complex audits and tax authority disputes.</p>
+              <ul class="practice-detail__services">
+                <li class="practice-detail__service">Corporate Tax Structuring</li>
+                <li class="practice-detail__service">International Tax Planning</li>
+                <li class="practice-detail__service">Wealth &amp; Asset Protection</li>
+                <li class="practice-detail__service">Tax Audit Representation</li>
+                <li class="practice-detail__service">VAT &amp; Indirect Taxation Advisory</li>
+                <li class="practice-detail__service">Inheritance Tax Strategy</li>
+              </ul>
+              <a href="contact-us.html" class="btn btn-tertiary practice-detail__link">Contact Us <span class="arrow">&rarr;</span></a>
+            </div>
+          </div>
+        </article>
+        
+      </div>
+    </section>
+    
+    <!-- CTA Banner -->
+    <section class="cta-banner" aria-label="Contact call to action">
+      <div class="container">
+        <h2 class="heading-m" data-animate="heading">Need Legal Counsel?</h2>
+        <p class="body-l" data-animate="fade-up" data-delay="1">Our team is ready to assist with your legal matter. Contact us for a confidential consultation.</p>
+        <a href="contact-us.html" class="btn" data-animate="fade-up" data-delay="2">Contact Our Team</a>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid" data-animate="fade-up">
+        <div>
+          <p class="footer__brand">Celen LawFirm</p>
+          <p class="footer__tagline">International Legal Excellence Since 2001</p>
+          <div class="footer__socials">
+            <a href="#" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" aria-label="X (Twitter)">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l11.733 16h4.267l-11.733-16z"/><path d="M4 20l6.768-6.768m2.46-2.46L20 4"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <p class="footer__heading">Navigate</p>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="practice-areas.html">Practice Areas</a></li>
+            <li><a href="our-lawyers.html">Our Lawyers</a></li>
+            <li><a href="online-security.html">Online Security</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__heading">Expertise</p>
+          <ul class="footer__links">
+            <li><a href="practice-areas.html#corporate">Corporate &amp; Commercial</a></li>
+            <li><a href="practice-areas.html#employment">Employment &amp; Labour</a></li>
+            <li><a href="practice-areas.html#healthcare">Pharmaceutical &amp; Healthcare</a></li>
+            <li><a href="practice-areas.html#consumer">Consumer Law</a></li>
+            <li><a href="practice-areas.html#litigation">Litigation</a></li>
+          </ul>
+        </div>
+        <div class="footer__contact">
+          <p class="footer__heading">Contact</p>
+          <p>Celen LawFirm, Ankara, Turkey</p>
+          <p><a href="mailto:info@celenchambers.org">info@celenchambers.org</a></p>
+          <p><a href="tel:+905330915839">+90 533 091 58 39</a></p>
+          <a href="contact-us.html" class="btn btn-secondary-white">Get in Touch</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Celen LawFirm. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/app.js"></script>
+</body>
+</html>
