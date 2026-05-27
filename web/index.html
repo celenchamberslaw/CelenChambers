@@ -56,11 +56,11 @@
     </a>
 
     <nav class="navbar__nav" role="navigation" aria-label="Main navigation">
-      <a href="index.html" class="active">Home</a>
-      <a href="practice-areas.html">Practice Areas</a>
-      <a href="our-lawyers.html">Our Lawyers</a>
-      <a href="online-security.html">Online Security</a>
-      <a href="contact-us.html">Contact Us</a>
+      <a href="index.html" class="active" data-i18n="nav.home">Home</a>
+      <a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a>
+      <a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a>
+      <a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a>
+      <a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a>
     </nav>
 
     <div class="navbar__lang dropdown" aria-label="Language selector">
@@ -99,11 +99,11 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
-    <a href="index.html">Home</a>
-    <a href="practice-areas.html">Practice Areas</a>
-    <a href="our-lawyers.html">Our Lawyers</a>
-    <a href="online-security.html">Online Security</a>
-    <a href="contact-us.html">Contact Us</a>
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a>
+    <a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a>
+    <a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a>
+    <a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a>
     <div class="mobile-menu__lang dropdown">
       <div class="dropdown__menu--static">
         <div class="mobile-lang-header">
@@ -137,18 +137,18 @@
       <div class="hero__content">
         <p class="hero__label label-xl">
           <span class="hero__label-line"></span>
-          International Law Firm
+          <span data-i18n="home.hero.label">International Law Firm</span>
         </p>
-        <h1 class="hero__title display-xl">Celen LawFirm</h1>
-        <p class="hero__title-sub display-l">Professional Legal Services</p>
-        <p class="hero__subtitle body-l">
+        <h1 class="hero__title display-xl" data-i18n="home.hero.title">Celen LawFirm</h1>
+        <p class="hero__title-sub display-l" data-i18n="home.hero.subtitle">Professional Legal Services</p>
+        <p class="hero__subtitle body-l" data-i18n="home.hero.description">
           A full-service law firm based in Ankara, Turkey. We are a premier practice with a national and international
           client base, delivering expert counsel across corporate, commercial, employment, litigation, healthcare,
           competition, tax, and international law.
         </p>
         <div class="hero__cta">
-          <a href="practice-areas.html" class="btn btn-primary">Explore Our Services</a>
-          <a href="contact-us.html" class="btn btn-secondary-white">Contact Us</a>
+          <a href="practice-areas.html" class="btn btn-primary" data-i18n="home.hero.ctaPrimary">Explore Our Services</a>
+          <a href="contact-us.html" class="btn btn-secondary-white" data-i18n="home.hero.ctaSecondary">Contact Us</a>
         </div>
       </div>
       <div class="hero__scroll" aria-hidden="true">
@@ -164,21 +164,21 @@
       <div class="container-narrow">
         <p class="label-xl" data-animate="heading" data-i18n="home.about.label">Who We Are</p>
         <div class="decorative-line" data-animate="fade-up" data-delay="1"></div>
-        <h2 id="about-heading" class="heading-l" data-animate="heading" data-delay="1">Two Decades of Legal Excellence
+        <h2 id="about-heading" class="heading-l" data-animate="heading" data-delay="1" data-i18n="home.about.heading">Two Decades of Legal Excellence
         </h2>
-        <p class="body-l about__body" data-animate="fade-up" data-delay="2">
+        <p class="body-l about__body" data-animate="fade-up" data-delay="2" data-i18n="home.about.body1">
           Celen LawFirm is a full-service law firm based in Ankara, Turkey. We are a premier practice with a
           national and international client base. Our expertise includes but is not limited to corporate and commercial
           law, employment and labour law, pharmaceutical and healthcare law, consumer law, litigation, competition law,
           international law, and tax law.
         </p>
-        <p class="body-l about__body" data-animate="fade-up" data-delay="3">
+        <p class="body-l about__body" data-animate="fade-up" data-delay="3" data-i18n="home.about.body2">
           Founded on the principles of integrity, diligence, and strategic thinking, we have built lasting relationships
           with clients ranging from multinational corporations to individuals seeking trusted legal counsel. Our
           approach combines traditional legal craftsmanship with modern efficiency.
         </p>
         <div class="about__cta" data-animate="fade-up" data-delay="4">
-          <a href="our-lawyers.html" class="btn btn-tertiary">Learn More About Us <span class="arrow">&rarr;</span></a>
+          <a href="our-lawyers.html" class="btn btn-tertiary"><span data-i18n="home.about.cta">Learn More About Us</span> <span class="arrow">&rarr;</span></a>
         </div>
       </div>
     </section>
@@ -187,47 +187,47 @@
     <section class="practice-overview section-padding" aria-labelledby="practice-heading">
       <div class="container">
         <header class="section-header" data-animate="heading">
-          <p class="label-xl">Our Expertise</p>
-          <h2 id="practice-heading" class="heading-l">Comprehensive Legal Services</h2>
-          <p class="body-m">Tailored solutions for complex legal challenges across jurisdictions</p>
+          <p class="label-xl" data-i18n="home.practice.label">Our Expertise</p>
+          <h2 id="practice-heading" class="heading-l" data-i18n="home.practice.heading">Comprehensive Legal Services</h2>
+          <p class="body-m" data-i18n="home.practice.subtext">Tailored solutions for complex legal challenges across jurisdictions</p>
         </header>
 
         <div class="practice-overview__grid">
           <article class="practice-card" data-animate="fade-up" data-delay="1">
-            <span class="practice-card__number">01</span>
-            <h3 class="practice-card__title">Corporate &amp; Commercial Law</h3>
-            <p class="practice-card__desc">Corporate formations, structuring, mergers and acquisitions, governance
+            <span class="practice-card__number" data-i18n="home.practice.card1.number">01</span>
+            <h3 class="practice-card__title" data-i18n="home.practice.card1.title">Corporate &amp; Commercial Law</h3>
+            <p class="practice-card__desc" data-i18n="home.practice.card1.desc">Corporate formations, structuring, mergers and acquisitions, governance
               advisory, shareholder agreements, and commercial contracts for businesses of all sizes.</p>
-            <a href="practice-areas.html#corporate" class="practice-card__link">Learn More <span>&rarr;</span></a>
+            <a href="practice-areas.html#corporate" class="practice-card__link"><span data-i18n="home.practice.card1.link">Learn More</span> <span>&rarr;</span></a>
           </article>
 
           <article class="practice-card" data-animate="fade-up" data-delay="2">
-            <span class="practice-card__number">02</span>
-            <h3 class="practice-card__title">Employment &amp; Labour Law</h3>
-            <p class="practice-card__desc">Strategic guidance on employment agreements, collective bargaining, workplace
+            <span class="practice-card__number" data-i18n="home.practice.card2.number">02</span>
+            <h3 class="practice-card__title" data-i18n="home.practice.card2.title">Employment &amp; Labour Law</h3>
+            <p class="practice-card__desc" data-i18n="home.practice.card2.desc">Strategic guidance on employment agreements, collective bargaining, workplace
               compliance, redundancy, discrimination claims, and labour disputes.</p>
-            <a href="practice-areas.html#employment" class="practice-card__link">Learn More <span>&rarr;</span></a>
+            <a href="practice-areas.html#employment" class="practice-card__link"><span data-i18n="home.practice.card2.link">Learn More</span> <span>&rarr;</span></a>
           </article>
 
           <article class="practice-card" data-animate="fade-up" data-delay="3">
-            <span class="practice-card__number">03</span>
-            <h3 class="practice-card__title">Pharmaceutical &amp; Healthcare Law</h3>
-            <p class="practice-card__desc">Specialized advisory for life sciences, healthcare providers, and biotech
+            <span class="practice-card__number" data-i18n="home.practice.card3.number">03</span>
+            <h3 class="practice-card__title" data-i18n="home.practice.card3.title">Pharmaceutical &amp; Healthcare Law</h3>
+            <p class="practice-card__desc" data-i18n="home.practice.card3.desc">Specialized advisory for life sciences, healthcare providers, and biotech
               firms, navigating clinical trials, medical regulations, and patent issues.</p>
-            <a href="practice-areas.html#healthcare" class="practice-card__link">Learn More <span>&rarr;</span></a>
+            <a href="practice-areas.html#healthcare" class="practice-card__link"><span data-i18n="home.practice.card3.link">Learn More</span> <span>&rarr;</span></a>
           </article>
 
           <article class="practice-card" data-animate="fade-up" data-delay="4">
-            <span class="practice-card__number">04</span>
-            <h3 class="practice-card__title">Consumer Law</h3>
-            <p class="practice-card__desc">Dedicated advocacy protecting consumer rights, ensuring product safety
+            <span class="practice-card__number" data-i18n="home.practice.card4.number">04</span>
+            <h3 class="practice-card__title" data-i18n="home.practice.card4.title">Consumer Law</h3>
+            <p class="practice-card__desc" data-i18n="home.practice.card4.desc">Dedicated advocacy protecting consumer rights, ensuring product safety
               compliance, defending against unfair trade practices, and class actions.</p>
-            <a href="practice-areas.html#consumer" class="practice-card__link">Learn More <span>&rarr;</span></a>
+            <a href="practice-areas.html#consumer" class="practice-card__link"><span data-i18n="home.practice.card4.link">Learn More</span> <span>&rarr;</span></a>
           </article>
         </div>
 
         <div class="practice-overview__cta" data-animate="fade-up" data-delay="5">
-          <a href="practice-areas.html" class="btn btn-primary">View All Practice Areas</a>
+          <a href="practice-areas.html" class="btn btn-primary" data-i18n="home.practice.cta">View All Practice Areas</a>
         </div>
       </div>
     </section>
@@ -237,11 +237,11 @@
       <div class="container">
         <div class="featured-lawyers__layout">
           <div class="featured-lawyers__header" data-animate="fade-left">
-            <p class="label-xl">Our Team</p>
-            <h2 id="lawyers-heading" class="heading-l">Meet Our Partners</h2>
-            <p class="body-l">Our senior partners bring decades of combined experience across multiple jurisdictions and
+            <p class="label-xl" data-i18n="home.lawyers.label">Our Team</p>
+            <h2 id="lawyers-heading" class="heading-l" data-i18n="home.lawyers.heading">Meet Our Partners</h2>
+            <p class="body-l" data-i18n="home.lawyers.body">Our senior partners bring decades of combined experience across multiple jurisdictions and
               practice areas. Each partner leads with a commitment to client success and legal excellence.</p>
-            <a href="our-lawyers.html" class="btn btn-secondary-white">View All Lawyers</a>
+            <a href="our-lawyers.html" class="btn btn-secondary-white" data-i18n="home.lawyers.cta">View All Lawyers</a>
           </div>
 
           <div class="featured-lawyers__scroll" data-animate="fade-right" data-delay="2">
@@ -287,10 +287,10 @@
       <div class="container">
         <div class="security-cta__layout">
           <div class="security-cta__content">
-            <p class="label-xl" data-animate="heading">Client Protection</p>
-            <h2 id="security-heading" class="heading-l" data-animate="heading" data-delay="1">Your Security Is Our
+            <p class="label-xl" data-animate="heading" data-i18n="home.security.label">Client Protection</p>
+            <h2 id="security-heading" class="heading-l" data-animate="heading" data-delay="1" data-i18n="home.security.heading">Your Security Is Our
               Priority</h2>
-            <p class="body-l" data-animate="fade-up" data-delay="2">
+            <p class="body-l" data-animate="fade-up" data-delay="2" data-i18n="home.security.body">
               In an era of increasing digital threats, we believe informed clients are protected clients. Our Online
               Security resource center provides practical guidance on safeguarding your sensitive legal information,
               recognizing potential risks, and maintaining best practices when communicating with our firm.
@@ -301,32 +301,32 @@
                   stroke-linejoin="round" aria-hidden="true">
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
-                Secure communication protocols for sensitive matters
+                <span data-i18n="home.security.items.0">Secure communication protocols for sensitive matters</span>
               </li>
               <li class="security-cta__item">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" aria-hidden="true">
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
-                Best practices for online document exchange
+                <span data-i18n="home.security.items.1">Best practices for online document exchange</span>
               </li>
               <li class="security-cta__item">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" aria-hidden="true">
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
-                Recognizing and avoiding phishing attempts
+                <span data-i18n="home.security.items.2">Recognizing and avoiding phishing attempts</span>
               </li>
               <li class="security-cta__item">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" aria-hidden="true">
                   <polyline points="20 6 9 17 4 12"></polyline>
                 </svg>
-                Browser security and privacy recommendations
+                <span data-i18n="home.security.items.3">Browser security and privacy recommendations</span>
               </li>
             </ul>
             <div class="security-cta__btn" data-animate="fade-up" data-delay="4">
-              <a href="online-security.html" class="btn btn-primary">Visit Security Center</a>
+              <a href="online-security.html" class="btn btn-primary" data-i18n="home.security.cta">Visit Security Center</a>
             </div>
           </div>
           <div class="security-cta__image" data-animate="scale-in" data-delay="2">
@@ -339,18 +339,18 @@
     <!-- Contact Invitation -->
     <section class="contact-invite" style="padding: 10rem 0;" aria-labelledby="contact-heading">
       <div class="container-narrow">
-        <p class="label-xl" data-animate="heading">Get in Touch</p>
+        <p class="label-xl" data-animate="heading" data-i18n="home.contact.label">Get in Touch</p>
         <div class="decorative-line" data-animate="fade-up" data-delay="1"></div>
-        <h2 id="contact-heading" class="heading-l" data-animate="heading" data-delay="1">Let's Discuss Your Legal Needs
+        <h2 id="contact-heading" class="heading-l" data-animate="heading" data-delay="1" data-i18n="home.contact.heading">Let's Discuss Your Legal Needs
         </h2>
-        <p class="body-l" data-animate="fade-up" data-delay="2">
+        <p class="body-l" data-animate="fade-up" data-delay="2" data-i18n="home.contact.body">
           Whether you require counsel for a complex corporate transaction, assistance with estate planning, or guidance
           through a commercial dispute, our team is ready to listen and advise. Schedule a confidential consultation
           today.
         </p>
         <div class="contact-invite__cta" data-animate="fade-up" data-delay="3">
-          <a href="contact-us.html" class="btn btn-primary">Schedule a Consultation</a>
-          <a href="tel:+90312XXXXXX" class="btn btn-secondary">Call Us</a>
+          <a href="contact-us.html" class="btn btn-primary" data-i18n="home.contact.ctaPrimary">Schedule a Consultation</a>
+          <a href="tel:+90312XXXXXX" class="btn btn-secondary" data-i18n="home.contact.ctaSecondary">Call Us</a>
         </div>
       </div>
     </section>
@@ -362,7 +362,7 @@
       <div class="footer__grid" data-animate="fade-up">
         <div>
           <p class="footer__brand">Celen LawFirm</p>
-          <p class="footer__tagline">International Legal Excellence Since 2001</p>
+          <p class="footer__tagline" data-i18n="footer.tagline">International Legal Excellence Since 2001</p>
           <div class="footer__socials">
             <a href="#" aria-label="LinkedIn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -383,39 +383,39 @@
         </div>
 
         <div>
-          <p class="footer__heading">Navigate</p>
+          <p class="footer__heading" data-i18n="footer.navigate">Navigate</p>
           <ul class="footer__links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="practice-areas.html">Practice Areas</a></li>
-            <li><a href="our-lawyers.html">Our Lawyers</a></li>
-            <li><a href="online-security.html">Online Security</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a></li>
+            <li><a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a></li>
+            <li><a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a></li>
+            <li><a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a></li>
           </ul>
         </div>
 
         <div>
-          <p class="footer__heading">Expertise</p>
+          <p class="footer__heading" data-i18n="footer.expertise">Expertise</p>
           <ul class="footer__links">
-            <li><a href="practice-areas.html#corporate">Corporate &amp; Commercial</a></li>
-            <li><a href="practice-areas.html#employment">Employment &amp; Labour</a></li>
-            <li><a href="practice-areas.html#healthcare">Pharmaceutical &amp; Healthcare</a></li>
-            <li><a href="practice-areas.html#consumer">Consumer Law</a></li>
-            <li><a href="practice-areas.html#litigation">Litigation</a></li>
+            <li><a href="practice-areas.html#corporate" data-i18n="practiceAreas.corporate.title">Corporate &amp; Commercial</a></li>
+            <li><a href="practice-areas.html#employment" data-i18n="practiceAreas.employment.title">Employment &amp; Labour</a></li>
+            <li><a href="practice-areas.html#healthcare" data-i18n="practiceAreas.healthcare.title">Pharmaceutical &amp; Healthcare</a></li>
+            <li><a href="practice-areas.html#consumer" data-i18n="practiceAreas.consumer.title">Consumer Law</a></li>
+            <li><a href="practice-areas.html#litigation" data-i18n="practiceAreas.litigation.title">Litigation</a></li>
           </ul>
         </div>
 
         <div class="footer__contact">
-          <p class="footer__heading">Contact</p>
+          <p class="footer__heading" data-i18n="footer.contact">Contact</p>
           <p>Celen LawFirm, Ankara, Turkey</p>
           <p><a href="mailto:info@celenchambers.org">info@celenchambers.org</a></p>
           <p><a href="tel:+905330915839">+90 533 091 58 39</a></p>
-          <a href="contact-us.html" class="btn btn-secondary-white">Get in Touch</a>
+          <a href="contact-us.html" class="btn btn-secondary-white" data-i18n="footer.cta">Get in Touch</a>
         </div>
       </div>
 
       <div class="footer__bottom">
-        <p>&copy; 2026 Celen LawFirm. All rights reserved.</p>
-        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p data-i18n="footer.copyright">&copy; 2026 Celen LawFirm. All rights reserved.</p>
+        <p><a href="#" data-i18n="footer.privacy">Privacy Policy</a> | <a href="#" data-i18n="footer.terms">Terms of Service</a></p>
       </div>
     </div>
   </footer>

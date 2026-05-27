@@ -50,15 +50,15 @@
       const isOpen = mobileMenu.classList.contains('open');
       mobileMenu.classList.toggle('open');
       menuToggle.setAttribute('aria-expanded', !isOpen);
-      document.body.style.overflow = isOpen ? '' : 'hidden';
+      document.body.classList.toggle('menu-open', !isOpen);
     });
 
-    // Close menu on link click
-    mobileMenu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
+    // Close menu on link click or language selection
+    mobileMenu.querySelectorAll('a, button[data-lang]').forEach(el => {
+      el.addEventListener('click', () => {
         mobileMenu.classList.remove('open');
         menuToggle.setAttribute('aria-expanded', 'false');
-        document.body.style.overflow = '';
+        document.body.classList.remove('menu-open');
       });
     });
   }
@@ -208,6 +208,10 @@
       document.querySelectorAll('[data-lang]').forEach(btn => {
         btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
       });
+      const currentLangLabel = document.getElementById('current-lang');
+      if (currentLangLabel) {
+        currentLangLabel.textContent = lang.toUpperCase();
+      }
     },
 
     /**

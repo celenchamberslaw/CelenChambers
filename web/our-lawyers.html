@@ -27,11 +27,11 @@
     </a>
     
     <nav class="navbar__nav" role="navigation" aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="practice-areas.html">Practice Areas</a>
-      <a href="our-lawyers.html" class="active">Our Lawyers</a>
-      <a href="online-security.html">Online Security</a>
-      <a href="contact-us.html">Contact Us</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a>
+      <a href="our-lawyers.html" class="active" data-i18n="nav.ourLawyers">Our Lawyers</a>
+      <a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a>
+      <a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a>
     </nav>
     
     <div class="navbar__lang dropdown" aria-label="Language selector">
@@ -69,11 +69,11 @@
   </header>
   
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
-    <a href="index.html">Home</a>
-    <a href="practice-areas.html">Practice Areas</a>
-    <a href="our-lawyers.html">Our Lawyers</a>
-    <a href="online-security.html">Online Security</a>
-    <a href="contact-us.html">Contact Us</a>
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a>
+    <a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a>
+    <a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a>
+    <a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a>
     <div class="mobile-menu__lang dropdown">
       <div class="dropdown__menu--static">
         <div class="mobile-lang-header">
@@ -104,11 +104,11 @@
     <section class="page-header" aria-label="Page header">
       <div class="page-header__bg" style="background-image: url('images/page-header-lawyers.jpg');" role="img" aria-label="Modern law office interior"></div>
       <div class="page-header__content">
-        <p class="label-xl" data-animate="heading">Our Team</p>
-        <h1 class="display-l" data-animate="heading" data-delay="1">Our Lawyers</h1>
-        <p class="body-l" data-animate="fade-up" data-delay="2">Experienced advocates dedicated to achieving the best outcomes for our clients</p>
+        <p class="label-xl" data-animate="heading" data-i18n="ourLawyers.pageHeader.label">Our Team</p>
+        <h1 class="display-l" data-animate="heading" data-delay="1" data-i18n="ourLawyers.pageHeader.heading">Our Lawyers</h1>
+        <p class="body-l" data-animate="fade-up" data-delay="2" data-i18n="ourLawyers.pageHeader.subtext">Experienced advocates dedicated to achieving the best outcomes for our clients</p>
         <nav class="page-header__breadcrumb" aria-label="Breadcrumb" data-animate="fade-up" data-delay="3">
-          <a href="index.html">Home</a> / Our Lawyers
+          <a href="index.html" data-i18n="nav.home">Home</a> / <span data-i18n="nav.ourLawyers">Our Lawyers</span>
         </nav>
       </div>
     </section>
@@ -174,10 +174,10 @@
               <img src="images/partner-portrait-3.jpg" alt="Peter Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">Peter Surname</h2>
+              <h2 class="partner-card__name">Peter Wellington</h2>
               <p class="partner-card__title">Partner</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">Peter leads our residential conveyancing team and also undertakes private client work including wills, probate and Lasting Powers of Attorney. He is a member of the Court of Protection's deputyship panel, advising the mentally ill on their financial affairs.</p>
+              <p class="partner-card__bio">Peter leads our real estate and residential conveyancing team, advising high-net-worth individuals and corporate entities on complex property acquisitions. He also brings deep expertise in private client wealth structuring, probate, and succession planning.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -197,10 +197,10 @@
               <img src="images/partner-portrait-4.jpg" alt="Sarah Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">Sarah Surname</h2>
+              <h2 class="partner-card__name">Sarah Al-Fayed</h2>
               <p class="partner-card__title">Partner</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">Sarah specializes in corporate law and M&amp;A transactions, with particular expertise in cross-border deals involving European and Middle Eastern markets. She has advised on numerous high-value acquisitions and joint ventures.</p>
+              <p class="partner-card__bio">Sarah specializes in corporate law, mergers &amp; acquisitions, and equity capital markets. With a focus on cross-border transactions connecting European, Middle Eastern, and Turkish markets, she routinely structures high-value joint ventures and advises multinational boards on governance strategies.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -220,10 +220,10 @@
               <img src="images/partner-portrait-5.jpg" alt="Mehmet Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">Mehmet Surname</h2>
+              <h2 class="partner-card__name">Mehmet Arslan</h2>
               <p class="partner-card__title">Partner</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">Mehmet brings deep expertise in Turkish commercial law and international arbitration. He regularly represents clients in complex disputes before Turkish courts and international tribunals, with fluency in Turkish, English, and French.</p>
+              <p class="partner-card__bio">Mehmet is a highly regarded practitioner in international arbitration and complex commercial litigation. Representing sovereign entities and leading energy conglomerates, his strategic advocacy spans major arbitral institutions including the ICC and LCIA. He is fluent in Turkish, English, and French.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -243,10 +243,10 @@
               <img src="images/partner-portrait-6.jpg" alt="Elena Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">Elena Surname</h2>
+              <h2 class="partner-card__name">Elena Rostova</h2>
               <p class="partner-card__title">Senior Associate</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">Elena focuses on intellectual property law, technology governance, and data protection compliance. She advises tech companies and startups on IP strategy, licensing, and regulatory compliance across multiple jurisdictions.</p>
+              <p class="partner-card__bio">Elena provides executive counsel on intellectual property law, cybersecurity, and global data privacy frameworks. She architects regulatory compliance structures for leading technology firms navigating the intersection of innovation, cross-border data transfer, and digital rights governance.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -266,10 +266,10 @@
               <img src="images/partner-portrait-7.jpg" alt="James Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">James Surname</h2>
+              <h2 class="partner-card__name">James Harrington</h2>
               <p class="partner-card__title">Senior Associate</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">James specializes in employment law and HR advisory, representing both employers and executives. His practice covers dispute resolution, contract negotiation, workplace policies, and compliance with Turkish and EU labor regulations.</p>
+              <p class="partner-card__bio">James provides sophisticated advisory on employment law, executive compensation, and corporate restructuring. He represents multinational employers in critical workforce transitions, union negotiations, and high-stakes executive disputes, ensuring alignment with both regional and global labor mandates.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -289,10 +289,10 @@
               <img src="images/partner-portrait-8.jpg" alt="Ayse Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">Ayse Surname</h2>
+              <h2 class="partner-card__name">Ayşe Yılmaz</h2>
               <p class="partner-card__title">Associate</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">Ayse focuses on family law, immigration law, and citizenship matters. She provides compassionate counsel to individuals navigating complex personal legal situations, with particular expertise in cross-border family disputes.</p>
+              <p class="partner-card__bio">Ayşe operates at the forefront of international family law and private client dispute resolution. She provides discrete, sophisticated representation for high-net-worth individuals in complex jurisdictional matters, wealth protection, and cross-border citizenship and immigration programs.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -312,10 +312,10 @@
               <img src="images/partner-portrait-9.jpg" alt="David Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">David Surname</h2>
+              <h2 class="partner-card__name">David Chen</h2>
               <p class="partner-card__title">Associate</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">David's practice centers on banking law, financial regulation, and commercial lending. He advises financial institutions and corporate borrowers on structured finance, regulatory compliance, and risk management.</p>
+              <p class="partner-card__bio">David is a distinguished banking and finance associate with significant experience advising global financial institutions. His practice centers on syndicated lending, structured asset finance, and navigating complex regulatory hurdles in emerging markets.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -335,10 +335,10 @@
               <img src="images/partner-portrait-10.jpg" alt="Maria Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">Maria Surname</h2>
+              <h2 class="partner-card__name">Maria Gonzalez</h2>
               <p class="partner-card__title">Associate</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">Maria specializes in environmental law, ESG advisory, and sustainable business practices. She helps clients navigate regulatory requirements and develop compliance strategies aligned with international sustainability standards.</p>
+              <p class="partner-card__bio">Maria brings focused expertise to environmental law, energy transitions, and ESG strategy. She advises global corporations on navigating environmental compliance frameworks, structuring green investments, and mitigating regulatory risk in sustainable infrastructure projects.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -358,10 +358,10 @@
               <img src="images/partner-portrait-11.jpg" alt="Omar Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">Omar Surname</h2>
+              <h2 class="partner-card__name">Omar Tariq</h2>
               <p class="partner-card__title">Associate</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">Omar focuses on international trade law, customs regulations, and export controls. He advises manufacturers and trading companies on cross-border transactions, sanctions compliance, and WTO regulations.</p>
+              <p class="partner-card__bio">Omar focuses on international trade law, customs regulations, and geopolitical export controls. Working with major industrial and trading companies, he provides strategic counsel on WTO compliance, supply chain risk management, and the complexities of international sanctions regimes.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -381,10 +381,10 @@
               <img src="images/partner-portrait-12.jpg" alt="Lisa Surname professional portrait" class="partner-card__photo" loading="lazy">
             </div>
             <div class="partner-card__content">
-              <h2 class="partner-card__name">Lisa Surname</h2>
+              <h2 class="partner-card__name">Lisa Vanderweele</h2>
               <p class="partner-card__title">Associate</p>
               <div class="partner-card__separator"></div>
-              <p class="partner-card__bio">Lisa specializes in emerging technology law, including AI governance, blockchain regulation, and fintech compliance. She bridges the gap between innovation and regulation, helping technology companies operate within evolving legal frameworks.</p>
+              <p class="partner-card__bio">Lisa is at the cutting edge of digital economy law, specifically advising on decentralized finance, AI governance, and digital asset regulation. She partners with innovative tech enterprises to structure legally robust models in rapidly evolving and ambiguous regulatory landscapes.</p>
               <div class="partner-card__contact">
                 <span class="partner-card__contact-item">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
@@ -405,9 +405,9 @@
     <!-- Join Team CTA -->
     <section class="join-team" aria-label="Career opportunities">
       <div class="container">
-        <h2 class="heading-m" data-animate="heading">Join Our Team</h2>
-        <p class="body-l" data-animate="fade-up" data-delay="1">We are always interested in hearing from talented legal professionals who share our commitment to excellence. If you are interested in a career at Celen LawFirm, we would welcome your inquiry.</p>
-        <a href="contact-us.html" class="btn btn-secondary" data-animate="fade-up" data-delay="2">View Opportunities</a>
+        <h2 class="heading-m" data-animate="heading" data-i18n="ourLawyers.joinTeam.heading">Join Our Team</h2>
+        <p class="body-l" data-animate="fade-up" data-delay="1" data-i18n="ourLawyers.joinTeam.body">We are always interested in hearing from talented legal professionals who share our commitment to excellence. If you are interested in a career at Celen LawFirm, we would welcome your inquiry.</p>
+        <a href="contact-us.html" class="btn btn-secondary" data-animate="fade-up" data-delay="2" data-i18n="ourLawyers.joinTeam.button">View Opportunities</a>
       </div>
     </section>
   </main>
@@ -418,7 +418,7 @@
       <div class="footer__grid" data-animate="fade-up">
         <div>
           <p class="footer__brand">Celen LawFirm</p>
-          <p class="footer__tagline">International Legal Excellence Since 2001</p>
+          <p class="footer__tagline" data-i18n="footer.tagline">International Legal Excellence Since 2001</p>
           <div class="footer__socials">
             <a href="#" aria-label="LinkedIn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
@@ -429,36 +429,36 @@
           </div>
         </div>
         <div>
-          <p class="footer__heading">Navigate</p>
+          <p class="footer__heading" data-i18n="footer.navigate">Navigate</p>
           <ul class="footer__links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="practice-areas.html">Practice Areas</a></li>
-            <li><a href="our-lawyers.html">Our Lawyers</a></li>
-            <li><a href="online-security.html">Online Security</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a></li>
+            <li><a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a></li>
+            <li><a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a></li>
+            <li><a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a></li>
           </ul>
         </div>
         <div>
-          <p class="footer__heading">Expertise</p>
+          <p class="footer__heading" data-i18n="footer.expertise">Expertise</p>
           <ul class="footer__links">
-            <li><a href="practice-areas.html#corporate">Corporate &amp; Commercial</a></li>
-            <li><a href="practice-areas.html#employment">Employment &amp; Labour</a></li>
-            <li><a href="practice-areas.html#healthcare">Pharmaceutical &amp; Healthcare</a></li>
-            <li><a href="practice-areas.html#consumer">Consumer Law</a></li>
-            <li><a href="practice-areas.html#litigation">Litigation</a></li>
+            <li><a href="practice-areas.html#corporate" data-i18n="practiceAreas.corporate.title">Corporate &amp; Commercial</a></li>
+            <li><a href="practice-areas.html#employment" data-i18n="practiceAreas.employment.title">Employment &amp; Labour</a></li>
+            <li><a href="practice-areas.html#healthcare" data-i18n="practiceAreas.healthcare.title">Pharmaceutical &amp; Healthcare</a></li>
+            <li><a href="practice-areas.html#consumer" data-i18n="practiceAreas.consumer.title">Consumer Law</a></li>
+            <li><a href="practice-areas.html#litigation" data-i18n="practiceAreas.litigation.title">Litigation</a></li>
           </ul>
         </div>
         <div class="footer__contact">
-          <p class="footer__heading">Contact</p>
+          <p class="footer__heading" data-i18n="footer.contact">Contact</p>
           <p>Celen LawFirm, Ankara, Turkey</p>
           <p><a href="mailto:info@celenchambers.org">info@celenchambers.org</a></p>
           <p><a href="tel:+905330915839">+90 533 091 58 39</a></p>
-          <a href="contact-us.html" class="btn btn-secondary-white">Get in Touch</a>
+          <a href="contact-us.html" class="btn btn-secondary-white" data-i18n="footer.cta">Get in Touch</a>
         </div>
       </div>
       <div class="footer__bottom">
-        <p>&copy; 2026 Celen LawFirm. All rights reserved.</p>
-        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p data-i18n="footer.copyright">&copy; 2026 Celen LawFirm. All rights reserved.</p>
+        <p><a href="#" data-i18n="footer.privacy">Privacy Policy</a> | <a href="#" data-i18n="footer.terms">Terms of Service</a></p>
       </div>
     </div>
   </footer>

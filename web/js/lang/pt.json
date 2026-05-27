@@ -1,0 +1,305 @@
+{
+    "pageTitle": "Celen LawFirm | Escritório de Advocacia Internacional",
+    "metaDescription": "A Celen LawFirm é um escritório de advocacia internacional de serviço completo com sede em Ancara, Turquia. Excelência jurídica em direito societário, comercial, trabalhista, contencioso, da saúde, da concorrência, tributário e internacional.",
+    "nav": {
+        "home": "Início",
+        "practiceAreas": "Áreas de Atuação",
+        "ourLawyers": "Nossos Advogados",
+        "onlineSecurity": "Segurança Online",
+        "contactUs": "Fale Conosco"
+    },
+    "home": {
+        "hero": {
+            "label": "Escritório de Advocacia Internacional",
+            "title": "Celen LawFirm",
+            "subtitle": "Serviços Jurídicos Profissionais",
+            "description": "Um escritório de advocacia de serviço completo com sede em Ancara, Turquia. Somos um escritório de primeira linha com uma base de clientes nacional e internacional, oferecendo consultoria especializada em direito societário, comercial, trabalhista, contencioso, da saúde, da concorrência, tributário e internacional.",
+            "ctaPrimary": "Explorar Nossos Serviços",
+            "ctaSecondary": "Fale Conosco"
+        },
+        "about": {
+            "label": "Quem Somos",
+            "heading": "Duas Décadas de Excelência Jurídica",
+            "body1": "A Celen LawFirm é um escritório de advocacia de serviço completo com sede em Ancara, Turquia. Somos um escritório de médio porte com uma base de clientes nacional e internacional. Nossa expertise inclui, mas não se limita a, direito societário e comercial, direito do trabalho, direito farmacêutico e da saúde, direito do consumidor, contencioso, direito da concorrência, direito internacional e direito tributário.",
+            "body2": "Fundados nos princípios de integridade, diligência e pensamento estratégico, construímos relacionamentos duradouros com clientes que variam de corporações multinacionais a indivíduos que buscam consultoria jurídica de confiança. Nossa abordagem combina a proficiência jurídica tradicional com a eficiência moderna.",
+            "cta": "Saiba Mais Sobre Nós"
+        },
+        "practice": {
+            "label": "Nossa Expertise",
+            "heading": "Serviços Jurídicos Abrangentes",
+            "subtext": "Soluções personalizadas para desafios jurídicos complexos em diversas jurisdições",
+            "card1": {
+                "number": "01",
+                "title": "Direito Societário e Comercial",
+                "desc": "Constituição de empresas, estruturação, fusões e aquisições, consultoria de governança, acordos de acionistas e contratos comerciais para empresas de todos os tamanhos."
+            },
+            "card2": {
+                "number": "02",
+                "title": "Direito Trabalhista e Previdenciário",
+                "desc": "Orientação estratégica sobre contratos de trabalho, negociação coletiva, conformidade no local de trabalho, demissões, alegações de discriminação e disputas trabalhistas."
+            },
+            "card3": {
+                "number": "03",
+                "title": "Direito Farmacêutico e da Saúde",
+                "desc": "Consultoria especializada para ciências da vida, provedores de saúde e empresas de biotecnologia, navegando em ensaios clínicos, regulamentações médicas e questões de patentes."
+            },
+            "card4": {
+                "number": "04",
+                "title": "Direito do Consumidor",
+                "desc": "Defesa dedicada para proteger os direitos dos consumidores, garantir a conformidade com a segurança dos produtos, defesa contra práticas comerciais desleais e ações coletivas."
+            },
+            "cta": "Ver Todas as Áreas de Atuação"
+        },
+        "lawyers": {
+            "label": "Nossa Equipe",
+            "heading": "Conheça Nossos Sócios",
+            "body": "Nossos sócios trazem décadas de experiência combinada em múltiplas jurisdições e áreas de atuação. Cada advogado atua com um compromisso com o sucesso do cliente e a excelência jurídica.",
+            "cta": "Ver Todos os Advogados"
+        },
+        "security": {
+            "label": "Proteção do Cliente",
+            "heading": "Sua Segurança É Nossa Prioridade",
+            "body": "Em uma era de ameaças digitais crescentes, acreditamos que clientes informados são clientes protegidos. Nosso centro de recursos de Segurança Online fornece orientações práticas para proteger suas informações jurídicas sensíveis, reconhecer riscos potenciais e manter as melhores práticas ao se comunicar com a Celen LawFirm.",
+            "items": [
+                "Protocolos de comunicação segura para assuntos sensíveis",
+                "Melhores práticas para troca de documentos online",
+                "Reconhecer e evitar tentativas de phishing",
+                "Recomendações de segurança e privacidade do navegador"
+            ],
+            "cta": "Visitar Centro de Segurança"
+        },
+        "contact": {
+            "label": "Entre em Contato",
+            "heading": "Vamos Discutir Suas Necessidades Jurídicas",
+            "body": "Quer você necessite de aconselhamento para uma transação comercial complexa, assistência com questões trabalhistas ou orientação em uma disputa internacional, nossa equipe está pronta para ouvir e aconselhar. Agende uma consulta confidencial hoje mesmo.",
+            "ctaPrimary": "Agendar Consulta",
+            "ctaSecondary": "Ligue para Nós"
+        }
+    },
+    "practiceAreas": {
+        "pageTitle": "Áreas de Atuação | Celen LawFirm",
+        "pageHeader": {
+            "label": "Áreas de Atuação",
+            "heading": "Nossas Áreas de Prática",
+            "subtext": "Serviços jurídicos abrangentes adaptados para proteger seus interesses e promover seus objetivos"
+        },
+        "corporate": {
+            "number": "01",
+            "title": "Direito Societário e Comercial",
+            "desc": "Nossos advogados concentram-se no trabalho jurídico corporativo, incluindo formações, estruturação, consultoria tributária, due diligence, elaboração de memorandos, redação de documentos e registros estatais. Redigimos rotineiramente contratos comerciais, resoluções corporativas e acordos de acionistas para empresas administradas por seus proprietários e representamos clientes em disputas transacionais.",
+            "services": [
+                "Formações de Empresas e Estruturação",
+                "Consultoria Estratégica em M&A",
+                "Governança Corporativa e Conformidade",
+                "Redação e Revisão de Contratos",
+                "Acordos de Acionistas e Joint Ventures",
+                "Registros Regulatórios e Estatais"
+            ]
+        },
+        "employment": {
+            "number": "02",
+            "title": "Direito Trabalhista e Previdenciário",
+            "desc": "Orientamos empresas e executivos através do complexo cenário das leis trabalhistas. Nossos serviços incluem políticas de trabalho, conformidade de salários e horas, defesa contra discriminação, remuneração de executivos e representação perante tribunais arbitrais e juntas de trabalho para garantir resoluções ideais.",
+            "services": [
+                "Contratos e Políticas de Trabalho",
+                "Acordos de Negociação Coletiva",
+                "Conformidade e Auditorias no Local de Trabalho",
+                "Demissões e Reestruturação",
+                "Reclamações de Discriminação e Assédio",
+                "Representação em Disputas Trabalhistas"
+            ]
+        },
+        "healthcare": {
+            "number": "03",
+            "title": "Direito Farmacêutico e da Saúde",
+            "desc": "Assessorar empresas de ciências da vida, instituições médicas e profissionais sobre os rigorosos ambientes regulatórios que envolvem dispositivos médicos, produtos farmacêuticos, ensaios clínicos e conformidade de saúde, preenchendo a lacuna entre a inovação em saúde e as exigências regulatórias.",
+            "services": [
+                "Conformidade Regulatória e Licenciamento",
+                "Acordos de Ensaios Clínicos",
+                "Proteção de Propriedade Intelectual e Patentes",
+                "Aconselhamento sobre Fraude e Abuso na Saúde",
+                "Defesa de Responsabilidade pelo Produto",
+                "Representação em Negligência Médica"
+            ]
+        },
+        "consumer": {
+            "number": "04",
+            "title": "Direito do Consumidor",
+            "desc": "Nosso escritório é dedicado a proteger os consumidores contra práticas comerciais desleais, marketing enganoso, produtos defeituosos e empréstimos predatórios. Representamos clientes em ações individuais e litígios de ações coletivas, ao mesmo tempo em que aconselhamos empresas sobre a conformidade com as normas do consumidor.",
+            "services": [
+                "Reclamações de Proteção ao Consumidor",
+                "Responsabilidade e Segurança do Produto",
+                "Auditorias de Publicidade e Comércio Justo",
+                "E-commerce e Conformidade Digital",
+                "Defesa contra Financiamento Predatório",
+                "Ações Coletivas de Consumidores"
+            ]
+        },
+        "litigation": {
+            "number": "05",
+            "title": "Contencioso",
+            "desc": "Nossos advogados litigantes têm grande experiência na representação de clientes em disputas civis, comerciais, de construção e contratuais. Defendemos agressivamente os clientes em tribunais estaduais, audiências de apelação e tribunais de arbitragem internacional, com foco em uma resolução de disputas estratégica e econômica.",
+            "services": [
+                "Advocacia em Tribunais Comerciais",
+                "Execução de Contratos",
+                "Litígios de Ilícitos Comerciais",
+                "Arbitragem Internacional",
+                "Liminares e Execução",
+                "Representação em Tribunal de Apelações"
+            ]
+        },
+        "competition": {
+            "number": "06",
+            "title": "Direito da Concorrência",
+            "desc": "Navegar pelas modernas leis antitruste e de concorrência exige profunda visão estratégica. Representamos clientes corporativos em investigações de cartéis, autorizações de fusões, investigações de abuso de posição dominante e fornecemos auditorias de conformidade preventivas para minimizar riscos anticompetitivos.",
+            "services": [
+                "Autorização de Controle de Fusões",
+                "Defesa em Investigações de Cartéis",
+                "Consultoria sobre Abuso de Dominância",
+                "Auditorias Antitruste Preventivas",
+                "Programas de Conformidade Concorrencial",
+                "Acordos de Distribuição e Licenciamento"
+            ]
+        },
+        "international": {
+            "number": "07",
+            "title": "Direito Internacional",
+            "desc": "Serviços jurídicos especializados que lidam com transações comerciais transfronteiriças, disputas comerciais internacionais, regulamentações alfandegárias, questões marítimas e conformidade com tratados bilaterais, atuando como um consultor global de confiança em assuntos multijurisdicionais.",
+            "services": [
+                "Transações Comerciais Transfronteiriças",
+                "Tribunais Arbitrais Internacionais",
+                "Sanções e Conformidade Comercial",
+                "Direito Marítimo e de Navegação",
+                "Consultoria em Conformidade com Tratados",
+                "Litígios Multijurisdicionais"
+            ]
+        },
+        "tax": {
+            "number": "08",
+            "title": "Direito Tributário",
+            "desc": "Fornecer aconselhamento fiscal abrangente para empresas e indivíduos para estruturar transações comerciais, acordos transfronteiriços e planejamento sucessório da maneira mais eficiente do ponto de vista fiscal, ajudando os clientes a resolver com sucesso auditorias complexas e disputas com as autoridades fiscais.",
+            "services": [
+                "Estruturação Fiscal Corporativa",
+                "Planejamento Tributário Internacional",
+                "Proteção de Riqueza e Ativos",
+                "Representação em Auditoria Fiscal",
+                "Consultoria de IVA e Impostos Indiretos",
+                "Estratégia de Imposto sobre Herança"
+            ]
+        },
+        "cta": {
+            "heading": "Precisa de Aconselhamento Jurídico?",
+            "body": "Nossa equipe está pronta para ajudar com sua questão legal. Entre em contato conosco para uma consulta confidencial.",
+            "button": "Contatar Nossa Equipe"
+        }
+    },
+    "ourLawyers": {
+        "pageTitle": "Nossos Advogados | Celen LawFirm",
+        "pageHeader": {
+            "label": "Nossa Equipe",
+            "heading": "Nossos Advogados",
+            "subtext": "Advogados experientes dedicados a alcançar os melhores resultados para nossos clientes"
+        },
+        "joinTeam": {
+            "heading": "Junte-se à Nossa Equipe",
+            "body": "Estamos sempre interessados em ouvir profissionais jurídicos talentosos que compartilham nosso compromisso com a excelência. Se você está interessado em uma carreira na Celen LawFirm, teremos o prazer em receber sua candidatura.",
+            "button": "Ver Oportunidades"
+        }
+    },
+    "onlineSecurity": {
+        "pageTitle": "Segurança Online | Celen LawFirm",
+        "pageHeader": {
+            "label": "Recursos do Cliente",
+            "heading": "Centro de Segurança Online",
+            "subtext": "Um guia prático para ajudá-lo a se manter seguro no cenário digital ao usar nossos serviços jurídicos"
+        },
+        "intro": {
+            "label": "Mantendo-se Seguro Online",
+            "heading": "Dê um Passo para a Segurança",
+            "body": "No ambiente digital de hoje, proteger suas informações pessoais e jurídicas online é mais importante do que nunca. Na Celen LawFirm, estamos comprometidos não apenas em fornecer serviços jurídicos excepcionais, mas também em garantir que suas interações conosco permaneçam seguras."
+        },
+        "sidebar": {
+            "heading": "Tópicos",
+            "topics": [
+                "Diretrizes Gerais",
+                "Software de Navegador",
+                "Cookies",
+                "Anti-Spyware",
+                "Segurança de E-mail",
+                "Comunicação com Nosso Escritório"
+            ]
+        },
+        "cta": {
+            "heading": "Tem uma Preocupação de Segurança?",
+            "body": "Se você suspeitar de acesso não autorizado às suas informações ou se recebeu comunicações suspeitas alegando ser da Celen LawFirm, entre em contato conosco imediatamente.",
+            "button": "Relatar Problema de Segurança"
+        }
+    },
+    "contactUs": {
+        "pageTitle": "Fale Conosco | Celen LawFirm",
+        "pageHeader": {
+            "label": "Contato",
+            "heading": "Entre em Contato",
+            "subtext": "Nós encorajamos suas perguntas. Sinta-se à vontade para entrar em contato para discutir como a Celen LawFirm pode ajudar com suas necessidades jurídicas."
+        },
+        "form": {
+            "heading": "Envie-nos uma Mensagem",
+            "name": "Nome Completo",
+            "email": "Endereço de E-mail",
+            "phone": "Número de Telefone",
+            "subject": "Assunto",
+            "message": "Sua Mensagem",
+            "submit": "Enviar Mensagem",
+            "sending": "Enviando...",
+            "success": "Mensagem Enviada \u2713",
+            "error": "Erro \u2014 Tente Novamente",
+            "successMsg": "Obrigado por sua mensagem. Entraremos em contato em breve.",
+            "subjects": {
+                "placeholder": "Selecione um assunto",
+                "general": "Consulta Geral",
+                "corporate": "Direito Societário e Comercial",
+                "employment": "Direito Trabalhista",
+                "healthcare": "Direito Farmacêutico e da Saúde",
+                "consumer": "Direito do Consumidor",
+                "litigation": "Contencioso",
+                "competition": "Direito da Concorrência",
+                "international": "Direito Internacional",
+                "tax": "Direito Tributário",
+                "career": "Oportunidade de Carreira",
+                "security": "Preocupação de Segurança",
+                "other": "Outro"
+            }
+        },
+        "firmInfo": {
+            "contactDetails": "Detalhes de Contato",
+            "office": "Nosso Escritório",
+            "quickLinks": "Links Rápidos",
+            "followUs": "Siga-nos",
+            "hours": "Segunda \u2013 Sexta: 09:00 \u2013 18:00"
+        },
+        "faq": {
+            "label": "Perguntas Frequentes",
+            "heading": "Dúvidas Comuns",
+            "q1": "O que devo trazer para a minha consulta inicial?",
+            "a1": "Por favor, traga quaisquer documentos relevantes, correspondências, contratos ou documentos judiciais relacionados ao seu caso. Traga também um documento de identidade. Quanto mais informações você fornecer, melhor poderemos avaliar sua situação.",
+            "q2": "Como são estruturados os seus honorários advocatícios?",
+            "a2": "Nossa estrutura de honorários varia dependendo da natureza e complexidade da questão. Oferecemos taxas horárias, honorários fixos para determinados serviços e acordos de retenção. Discutiremos os honorários de forma transparente durante sua consulta inicial.",
+            "q3": "Vocês oferecem serviços em outros idiomas além do inglês?",
+            "a3": "Sim, nossa equipe inclui pessoas fluentes em turco, francês, alemão, espanhol e árabe. Também podemos providenciar serviços de interpretação para outros idiomas, se necessário.",
+            "q4": "Como sei se minhas comunicações online com o escritório são seguras?",
+            "a4": "Usamos e-mail criptografado e um portal seguro para clientes para troca de documentos. Procure por 'https://' na URL e nunca compartilhe senhas por e-mail. Para mais informações, visite nossa página de Segurança Online.",
+            "q5": "Quais áreas geográficas vocês atendem?",
+            "a5": "Embora sediados em Ancara, Turquia, atendemos clientes nacional e internacionalmente. Temos experiência com transações transfronteiriças e podemos coordenar com escritórios de advocacia correspondentes em todo o mundo."
+        }
+    },
+    "footer": {
+        "tagline": "Excelência Jurídica Internacional Desde 2001",
+        "navigate": "Navegação",
+        "expertise": "Expertise",
+        "contact": "Contato",
+        "cta": "Entre em Contato",
+        "copyright": "\u00a9 2026 Celen LawFirm. Todos os direitos reservados.",
+        "privacy": "Política de Privacidade",
+        "terms": "Termos de Serviço"
+    }
+}

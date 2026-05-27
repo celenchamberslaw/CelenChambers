@@ -1,0 +1,305 @@
+{
+    "pageTitle": "Celen Hukuk Bürosu | Uluslararası Hukuk Bürosu",
+    "metaDescription": "Celen Hukuk Bürosu, Ankara, Türkiye merkezli tam kapsamlı bir uluslararası hukuk bürosudur. Şirketler, ticaret, iş, dava, sağlık, rekabet, vergi ve uluslararası hukuk alanlarında hukuki mükemmellik.",
+    "nav": {
+        "home": "Ana Sayfa",
+        "practiceAreas": "Çalışma Alanları",
+        "ourLawyers": "Avukatlarımız",
+        "onlineSecurity": "Çevrimiçi Güvenlik",
+        "contactUs": "İletişim"
+    },
+    "home": {
+        "hero": {
+            "label": "Uluslararası Hukuk Bürosu",
+            "title": "Celen Hukuk Bürosu",
+            "subtitle": "Profesyonel Hukuki Hizmetler",
+            "description": "Ankara, Türkiye merkezli tam kapsamlı bir hukuk bürosu. Ulusal ve uluslararası müvekkil ağına sahip önde gelen bir büro olarak şirketler, ticaret, iş, dava, sağlık, rekabet, vergi ve uluslararası hukuk alanlarında uzman danışmanlık hizmeti sunuyoruz.",
+            "ctaPrimary": "Hizmetlerimizi İnceleyin",
+            "ctaSecondary": "Bize Ulaşın"
+        },
+        "about": {
+            "label": "Biz Kimiz",
+            "heading": "Yirmi Yıllık Hukuki Mükemmellik",
+            "body1": "Celen Hukuk Bürosu, Ankara, Türkiye merkezli tam kapsamlı bir hukuk bürosudur. Ulusal ve uluslararası müvekkil ağına sahip orta ölçekli bir büroyuz. Uzmanlığımız şirketler ve ticaret hukuku, iş ve sosyal güvenlik hukuku, ilaç ve sağlık hukuku, tüketici hukuku, dava, rekabet hukuku, uluslararası hukuk ve vergi hukukunu içermekle birlikte bunlarla sınırlı değildir.",
+            "body2": "Dürüstlük, titizlik ve stratejik düşünme ilkeleri üzerine kurulan büromuz, çok uluslu şirketlerden güvenilir hukuki danışmanlık arayan bireylere kadar geniş bir yelpazedeki müvekkillerle kalıcı ilişkiler kurmuştur. Yaklaşımımız, geleneksel hukuki ustalığı modern verimlilikle birleştirmektedir.",
+            "cta": "Hakkımızda Daha Fazla Bilgi Edinin"
+        },
+        "practice": {
+            "label": "Uzmanlığımız",
+            "heading": "Kapsamlı Hukuki Hizmetler",
+            "subtext": "Farklı yargı çevrelerinde karmaşık hukuki zorluklar için özel çözümler",
+            "card1": {
+                "number": "01",
+                "title": "Şirketler ve Ticaret Hukuku",
+                "desc": "Her ölçekteki işletme için şirket kuruluşları, yapılandırma, birleşme ve devralmalar, kurumsal yönetim danışmanlığı, hissedar sözleşmeleri ve ticari sözleşmeler."
+            },
+            "card2": {
+                "number": "02",
+                "title": "İş ve Sosyal Güvenlik Hukuku",
+                "desc": "İş sözleşmeleri, toplu iş sözleşmeleri, işyeri uyumluluğu, işten çıkarmalar, ayrımcılık iddiaları ve iş uyuşmazlıkları konusunda stratejik rehberlik."
+            },
+            "card3": {
+                "number": "03",
+                "title": "İlaç ve Sağlık Hukuku",
+                "desc": "Yaşam bilimleri, sağlık hizmeti sunucuları ve biyoteknoloji firmaları için klinik araştırmalar, tıbbi düzenlemeler ve patent sorunlarını kapsayan uzman danışmanlık."
+            },
+            "card4": {
+                "number": "04",
+                "title": "Tüketici Hukuku",
+                "desc": "Tüketici haklarının korunması, ürün güvenliği uyumluluğunun sağlanması, haksız ticari uygulamalara karşı savunma ve toplu davalarda adanmış savunuculuk."
+            },
+            "cta": "Tüm Çalışma Alanlarını Görüntüle"
+        },
+        "lawyers": {
+            "label": "Ekibimiz",
+            "heading": "Ortaklarımızla Tanışın",
+            "body": "Ortaklarımız, çoklu yargı bölgelerinde ve çalışma alanlarında onlarca yıllık birleşik deneyime sahiptir. Her avukatımız, müvekkil başarısına ve hukuki mükemmelliğe bağlılıkla liderlik etmektedir.",
+            "cta": "Tüm Avukatları Görüntüle"
+        },
+        "security": {
+            "label": "Müvekkil Koruması",
+            "heading": "Güvenliğiniz Önceliğimizdir",
+            "body": "Dijital tehditlerin arttığı bir çağda, bilinçli müvekkillerin korunduğuna inanıyoruz. Çevrimiçi Güvenlik kaynak merkezimiz, hassas hukuki bilgilerinizi koruma, olası riskleri tanıma ve Celen Hukuk Bürosu ile iletişim kurarken en iyi uygulamaları sürdürme konusunda pratik rehberlik sağlar.",
+            "items": [
+                "Hassas konular için güvenli iletişim protokolleri",
+                "Çevrimiçi belge değişimi için en iyi uygulamalar",
+                "Kimlik avı (phishing) girişimlerini tanıma ve önleme",
+                "Tarayıcı güvenliği ve gizlilik önerileri"
+            ],
+            "cta": "Güvenlik Merkezini Ziyaret Edin"
+        },
+        "contact": {
+            "label": "İletişime Geçin",
+            "heading": "Hukuki İhtiyaçlarınızı Görüşelim",
+            "body": "Karmaşık bir kurumsal işlem için danışmanlığa, iş uyuşmazlıklarıyla ilgili yardıma veya uluslararası bir ihtilafta rehberliğe ihtiyacınız varsa, ekibimiz dinlemeye ve tavsiyede bulunmaya hazırdır. Bugün gizli bir danışmanlık randevusu alın.",
+            "ctaPrimary": "Danışmanlık Randevusu Alın",
+            "ctaSecondary": "Bizi Arayın"
+        }
+    },
+    "practiceAreas": {
+        "pageTitle": "Çalışma Alanları | Celen Hukuk Bürosu",
+        "pageHeader": {
+            "label": "Çalışma Alanları",
+            "heading": "Uzmanlık Alanlarımız",
+            "subtext": "Çıkarlarınızı korumak ve hedeflerinizi ilerletmek için tasarlanmış kapsamlı hukuki hizmetler"
+        },
+        "corporate": {
+            "number": "01",
+            "title": "Şirketler ve Ticaret Hukuku",
+            "desc": "Avukatlarımız; kuruluşlar, yapılandırma, vergi danışmanlığı, durum tespiti (due diligence), mutabakat metinleri yazımı, belge taslaklarının hazırlanması ve resmi başvurular dahil olmak üzere kurumsal hukuki işlere odaklanmaktadır. Sahibi tarafından yönetilen işletmeler için rutin olarak ticari sözleşmeler, yönetim kurulu kararları ve hissedar sözleşmeleri hazırlar ve ticari uyuşmazlıklarda müvekkilleri temsil ederiz.",
+            "services": [
+                "Şirket Kuruluşları ve Yapılandırma",
+                "Birleşme ve Devralma (M&A) Stratejik Danışmanlığı",
+                "Kurumsal Yönetim ve Uyum",
+                "Sözleşme Taslağı Hazırlama ve İnceleme",
+                "Hissedar ve Girişim Sözleşmeleri",
+                "Mevzuat ve Resmi Başvurular"
+            ]
+        },
+        "employment": {
+            "number": "02",
+            "title": "İş ve Sosyal Güvenlik Hukuku",
+            "desc": "İşletmelere ve yöneticilere iş kanunlarının karmaşık çerçevesinde rehberlik ediyoruz. Hizmetlerimiz arasında işyeri politikaları, ücret ve çalışma saati uyumluluğu, ayrımcılık savunması, yönetici tazminatları ve optimal çözümler sağlamak için tahkim kurulları ile iş mahkemelerinde temsil yer almaktadır.",
+            "services": [
+                "İş Sözleşmeleri ve Politikaları",
+                "Toplu İş Sözleşmeleri",
+                "İşyeri Uyumluluğu ve Denetimler",
+                "İşten Çıkarma ve Yeniden Yapılanma",
+                "Ayrımcılık ve Taciz İddiaları",
+                "İş Uyuşmazlıklarında Temsil"
+            ]
+        },
+        "healthcare": {
+            "number": "03",
+            "title": "İlaç ve Sağlık Hukuku",
+            "desc": "Yaşam bilimleri şirketlerine, tıbbi kurumlara ve uygulayıcılara, tıbbi cihazlar, farmasötikler, klinik araştırmalar ve sağlık uyumluluğunu çevreleyen sıkı mevzuat ortamlarında danışmanlık yaparak, sağlıkta inovasyon ile yasal zorunluluklar arasındaki köprüyü kuruyoruz.",
+            "services": [
+                "Mevzuata Uyum ve Ruhsatlandırma",
+                "Klinik Araştırma Sözleşmeleri",
+                "Fikri Mülkiyet Koruması ve Patentler",
+                "Sağlıkta Dolandırıcılık ve İstismar Danışmanlığı",
+                "Ürün Sorumluluğu Savunması",
+                "Tıbbi İhmal (Malpraktis) Temsili"
+            ]
+        },
+        "consumer": {
+            "number": "04",
+            "title": "Tüketici Hukuku",
+            "desc": "Büromuz, tüketicileri haksız ticari uygulamalara, aldatıcı pazarlamaya, kusurlu ürünlere ve yıkıcı borçlandırmaya karşı korumaya adanmıştır. Bireysel davalarda ve toplu davalarda müvekkilleri temsil ederken, şirketlere de tüketici standartlarına uyum konusunda danışmanlık yapıyoruz.",
+            "services": [
+                "Tüketiciyi Koruma Davaları",
+                "Ürün Sorumluluğu ve Güvenliği",
+                "Reklam ve Adil Ticaret Denetimleri",
+                "E-ticaret ve Dijital Uyumluluk",
+                "Yıkıcı Finansman Savunması",
+                "Tüketici Toplu Davaları"
+            ]
+        },
+        "litigation": {
+            "number": "05",
+            "title": "Dava ve Uyuşmazlık Çözümü",
+            "desc": "Dava avukatlarımız, müvekkilleri hukuk, ticaret, inşaat ve sözleşme uyuşmazlıklarında temsil etme konusunda son derece yetkindir. Uygun maliyetli ve stratejik uyuşmazlık çözümüne odaklanarak müvekkillerimizi devlet mahkemelerinde, temyiz duruşmalarında ve uluslararası tahkim kurullarında agresif bir şekilde savunuruz.",
+            "services": [
+                "Ticaret Mahkemelerinde Savunuculuk",
+                "Sözleşmelerin İfası",
+                "Ticari Haksız Fiil Davaları",
+                "Uluslararası Tahkim",
+                "İhtiyati Tedbirler ve İcra",
+                "Temyiz Mahkemesi Temsili"
+            ]
+        },
+        "competition": {
+            "number": "06",
+            "title": "Rekabet Hukuku",
+            "desc": "Modern antitröst ve rekabet yasalarında gezinmek derin stratejik içgörü gerektirir. Kurumsal müvekkilleri kartel soruşturmalarında, birleşme izinlerinde, hakim durumun kötüye kullanılması incelemelerinde temsil ediyor ve rekabet karşıtı riskleri en aza indirmek için önleyici uyum denetimleri sunuyoruz.",
+            "services": [
+                "Birleşme Kontrolü İzni",
+                "Kartel Soruşturması Savunması",
+                "Hakim Durumun Kötüye Kullanılması Danışmanlığı",
+                "Önleyici Antitröst Denetimleri",
+                "Rekabet Uyum Programları",
+                "Dağıtım ve Lisans Sözleşmeleri"
+            ]
+        },
+        "international": {
+            "number": "07",
+            "title": "Uluslararası Hukuk",
+            "desc": "Sınır ötesi ticari işlemler, uluslararası ticaret uyuşmazlıkları, gümrük düzenlemeleri, denizcilik sorunları ve ikili antlaşmalara uyum konularını ele alan özel hukuki hizmetler ile çok yargı bölgeli konularda güvenilir bir küresel danışman olarak hizmet veriyoruz.",
+            "services": [
+                "Sınır Ötesi Ticari İşlemler",
+                "Uluslararası Tahkim Kurulları",
+                "Yaptırımlar ve Ticaret Uyumluluğu",
+                "Denizcilik ve Taşıma Hukuku",
+                "Antlaşmalara Uyum Danışmanlığı",
+                "Çoklu Yargı Çevreli Uyuşmazlıklar"
+            ]
+        },
+        "tax": {
+            "number": "08",
+            "title": "Vergi Hukuku",
+            "desc": "Ticari işlemleri, sınır ötesi anlaşmaları ve miras planlarını vergi açısından en verimli şekilde yapılandırmak için kapsamlı kurumsal ve özel vergi danışmanlığı sağlıyor, müvekkillerin karmaşık denetimleri ve vergi dairesi uyuşmazlıklarını başarıyla çözmelerine yardımcı oluyoruz.",
+            "services": [
+                "Kurumsal Vergi Yapılandırması",
+                "Uluslararası Vergi Planlaması",
+                "Servet ve Varlık Koruması",
+                "Vergi Denetimi Temsili",
+                "KDV ve Dolaylı Vergi Danışmanlığı",
+                "Veraset ve İntikal Vergisi Stratejisi"
+            ]
+        },
+        "cta": {
+            "heading": "Hukuki Danışmanlığa mı İhtiyacınız Var?",
+            "body": "Ekibimiz hukuki meselenizde size yardımcı olmaya hazırdır. Gizli bir danışmanlık için bizimle iletişime geçin.",
+            "button": "Ekibimizle İletişime Geçin"
+        }
+    },
+    "ourLawyers": {
+        "pageTitle": "Avukatlarımız | Celen Hukuk Bürosu",
+        "pageHeader": {
+            "label": "Ekibimiz",
+            "heading": "Avukatlarımız",
+            "subtext": "Müvekkillerimiz için en iyi sonuçları elde etmeye adanmış deneyimli savunucular"
+        },
+        "joinTeam": {
+            "heading": "Ekibimize Katılın",
+            "body": "Mükemmellik taahhüdümüzü paylaşan yetenekli hukuk profesyonelleriyle tanışmaktan her zaman memnuniyet duyarız. Celen Hukuk Bürosu'nda bir kariyerle ilgileniyorsanız, başvurunuzu bekliyoruz.",
+            "button": "Fırsatları Görüntüle"
+        }
+    },
+    "onlineSecurity": {
+        "pageTitle": "Çevrimiçi Güvenlik | Celen Hukuk Bürosu",
+        "pageHeader": {
+            "label": "Müvekkil Kaynakları",
+            "heading": "Çevrimiçi Güvenlik Merkezi",
+            "subtext": "Hukuki hizmetlerimizden faydalanırken dijital ortamda güvende kalmanıza yardımcı olacak pratik rehberlik"
+        },
+        "intro": {
+            "label": "Çevrimiçi Güvende Kalmak",
+            "heading": "Güvenli Tarafta Yürüyün",
+            "body": "Günümüzün dijital ortamında, kişisel ve hukuki bilgilerinizi çevrimiçi ortamda korumak her zamankinden daha önemlidir. Celen Hukuk Bürosu olarak, yalnızca olağanüstü hukuki hizmetler sunmayı değil, aynı zamanda bizimle olan etkileşimlerinizin güvenli kalmasını sağlamayı da taahhüt ediyoruz."
+        },
+        "sidebar": {
+            "heading": "Konular",
+            "topics": [
+                "Genel Yönergeler",
+                "Tarayıcı Yazılımı",
+                "Çerezler (Cookies)",
+                "Casus Yazılım Önleme",
+                "E-posta Güvenliği",
+                "Büromuzla İletişim"
+            ]
+        },
+        "cta": {
+            "heading": "Bir Güvenlik Endişeniz mi Var?",
+            "body": "Bilgilerinize yetkisiz erişim olduğundan şüpheleniyorsanız veya Celen Hukuk Bürosu'ndan geliyormuş gibi görünen şüpheli iletişimler aldıysanız, lütfen derhal bizimle iletişime geçin.",
+            "button": "Güvenlik Endişesi Bildir"
+        }
+    },
+    "contactUs": {
+        "pageTitle": "İletişim | Celen Hukuk Bürosu",
+        "pageHeader": {
+            "label": "İletişim",
+            "heading": "Bize Ulaşın",
+            "subtext": "Sorularınızı bekliyoruz. Celen Hukuk Bürosu'nun hukuki ihtiyaçlarınıza nasıl yardımcı olabileceğini görüşmek için bizimle iletişime geçin."
+        },
+        "form": {
+            "heading": "Bize Bir Mesaj Gönderin",
+            "name": "Ad Soyad",
+            "email": "E-posta Adresi",
+            "phone": "Telefon Numarası",
+            "subject": "Konu",
+            "message": "Mesajınız",
+            "submit": "Mesajı Gönder",
+            "sending": "Gönderiliyor...",
+            "success": "Mesaj Gönderildi \u2713",
+            "error": "Hata \u2014 Yeniden Dene",
+            "successMsg": "Mesajınız için teşekkür ederiz. Size en kısa sürede dönüş yapacağız.",
+            "subjects": {
+                "placeholder": "Bir konu seçin",
+                "general": "Genel Soru",
+                "corporate": "Şirketler ve Ticaret Hukuku",
+                "employment": "İş ve Sosyal Güvenlik Hukuku",
+                "healthcare": "İlaç ve Sağlık Hukuku",
+                "consumer": "Tüketici Hukuku",
+                "litigation": "Dava ve Uyuşmazlık Çözümü",
+                "competition": "Rekabet Hukuku",
+                "international": "Uluslararası Hukuk",
+                "tax": "Vergi Hukuku",
+                "career": "Kariyer Fırsatı",
+                "security": "Güvenlik Endişesi",
+                "other": "Diğer"
+            }
+        },
+        "firmInfo": {
+            "contactDetails": "İletişim Bilgileri",
+            "office": "Ofisimiz",
+            "quickLinks": "Hızlı Bağlantılar",
+            "followUs": "Bizi Takip Edin",
+            "hours": "Pazartesi \u2013 Cuma: 09:00 \u2013 18:00"
+        },
+        "faq": {
+            "label": "Sıkça Sorulanlar",
+            "heading": "Sık Sorulan Sorular",
+            "q1": "İlk görüşmeme gelirken yanımda ne getirmeliyim?",
+            "a1": "Lütfen konunuzla ilgili her türlü ilgili belgeyi, yazışmayı, sözleşmeyi veya mahkeme evrakını yanınızda getirin. Ayrıca bir kimlik belgesi bulundurun. Ne kadar çok bilgi sağlarsanız, durumunuzu o kadar iyi değerlendirebiliriz.",
+            "q2": "Hukuki ücretleriniz nasıl yapılandırılıyor?",
+            "a2": "Ücret yapımız konunun niteliğine ve karmaşıklığına göre değişir. Saatlik ücretler, belirli hizmetler için sabit ücretler ve danışmanlık anlaşmaları sunuyoruz. İlk görüşmeniz sırasında ücretleri şeffaf bir şekilde tartışacağız.",
+            "q3": "İngilizce dışında başka dillerde hizmet sunuyor musunuz?",
+            "a3": "Evet, ekibimiz Türkçe, Fransızca, Almanca, İspanyolca ve Arapça dillerini akıcı bir şekilde konuşan kişileri içermektedir. Gerektiğinde diğer diller için tercüman hizmetleri de ayarlayabiliriz.",
+            "q4": "Büroyla çevrimiçi iletişimlerimin güvenli olduğunu nasıl bilebilirim?",
+            "a4": "Belge değişimi için şifreli e-posta ve güvenli bir müvekkil portalı kullanıyoruz. URL'de 'https://' ibaresini arayın ve parolaları asla e-posta yoluyla paylaşmayın. Daha fazla bilgi için Çevrimiçi Güvenlik sayfamızı ziyaret edin.",
+            "q5": "Hangi coğrafi bölgelere hizmet veriyorsunuz?",
+            "a5": "Merkezimiz Ankara, Türkiye'de olmakla birlikte, ulusal ve uluslararası müvekkillere hizmet veriyoruz. Sınır ötesi işlemlerde deneyimliyiz ve dünya çapındaki muhabir bürolarla koordinasyon sağlayabiliriz."
+        }
+    },
+    "footer": {
+        "tagline": "2001'den Beri Uluslararası Hukuki Mükemmellik",
+        "navigate": "Geçiş Yap",
+        "expertise": "Uzmanlık",
+        "contact": "İletişim",
+        "cta": "Bize Ulaşın",
+        "copyright": "\u00a9 2026 Celen Hukuk Bürosu. Tüm hakları saklıdır.",
+        "privacy": "Gizlilik Politikası",
+        "terms": "Kullanım Şartları"
+    }
+}

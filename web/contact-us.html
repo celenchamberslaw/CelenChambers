@@ -33,11 +33,11 @@
     </a>
 
     <nav class="navbar__nav" role="navigation" aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="practice-areas.html">Practice Areas</a>
-      <a href="our-lawyers.html">Our Lawyers</a>
-      <a href="online-security.html">Online Security</a>
-      <a href="contact-us.html" class="active">Contact Us</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a>
+      <a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a>
+      <a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a>
+      <a href="contact-us.html" class="active" data-i18n="nav.contactUs">Contact Us</a>
     </nav>
 
     <div class="navbar__lang dropdown" aria-label="Language selector">
@@ -75,11 +75,11 @@
   </header>
 
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
-    <a href="index.html">Home</a>
-    <a href="practice-areas.html">Practice Areas</a>
-    <a href="our-lawyers.html">Our Lawyers</a>
-    <a href="online-security.html">Online Security</a>
-    <a href="contact-us.html">Contact Us</a>
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a>
+    <a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a>
+    <a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a>
+    <a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a>
     <div class="mobile-menu__lang dropdown">
       <div class="dropdown__menu--static">
         <div class="mobile-lang-header">
@@ -111,12 +111,12 @@
       <div class="page-header__bg" style="background-image: url('images/page-header-contact.jpg');" role="img"
         aria-label="Ankara cityscape at golden hour"></div>
       <div class="page-header__content">
-        <p class="label-xl" data-animate="heading">Contact</p>
-        <h1 class="display-l" data-animate="heading" data-delay="1">Get in Touch</h1>
-        <p class="body-l" data-animate="fade-up" data-delay="2">We welcome your inquiries. Reach out to discuss how
+        <p class="label-xl" data-animate="heading" data-i18n="contactUs.pageHeader.label">Contact</p>
+        <h1 class="display-l" data-animate="heading" data-delay="1" data-i18n="contactUs.pageHeader.heading">Get in Touch</h1>
+        <p class="body-l" data-animate="fade-up" data-delay="2" data-i18n="contactUs.pageHeader.subtext">We welcome your inquiries. Reach out to discuss how
           Celen LawFirm can assist with your legal needs.</p>
         <nav class="page-header__breadcrumb" aria-label="Breadcrumb" data-animate="fade-up" data-delay="3">
-          <a href="index.html">Home</a> / Contact Us
+          <a href="index.html" data-i18n="nav.home">Home</a> / <span data-i18n="nav.contactUs">Contact Us</span>
         </nav>
       </div>
     </section>
@@ -128,7 +128,7 @@
 
           <!-- Contact Form -->
           <div class="contact-form-wrapper" data-animate="fade-left">
-            <h2 class="contact-form__heading">Send Us a Message</h2>
+            <h2 class="contact-form__heading" data-i18n="contactUs.form.heading">Send Us a Message</h2>
             <form id="contactForm" action="/api/send-email" method="POST" novalidate>
 
               <!-- Honeypot -->
@@ -137,56 +137,56 @@
               </div>
 
               <div class="form-group">
-                <label for="name">Full Name <span class="required">*</span></label>
+                <label for="name"><span data-i18n="contactUs.form.name">Full Name</span> <span class="required">*</span></label>
                 <input type="text" id="name" name="name" class="form-input" placeholder="Your full name" required>
                 <p class="form-error" id="name-error">Please enter your full name.</p>
               </div>
 
               <div class="form-group">
-                <label for="email">Email Address <span class="required">*</span></label>
+                <label for="email"><span data-i18n="contactUs.form.email">Email Address</span> <span class="required">*</span></label>
                 <input type="email" id="email" name="email" class="form-input" placeholder="your.email@example.com"
                   required>
                 <p class="form-error" id="email-error">Please enter a valid email address.</p>
               </div>
 
               <div class="form-group">
-                <label for="phone">Phone Number</label>
+                <label for="phone" data-i18n="contactUs.form.phone">Phone Number</label>
                 <input type="tel" id="phone" name="phone" class="form-input" placeholder="+90 XXX XXX XXXX">
               </div>
 
               <div class="form-group">
-                <label for="subject">Subject <span class="required">*</span></label>
+                <label for="subject"><span data-i18n="contactUs.form.subject">Subject</span> <span class="required">*</span></label>
                 <select id="subject" name="subject" class="form-select" required>
-                  <option value="" disabled selected>Select a subject</option>
-                  <option value="general">General Inquiry</option>
-                  <option value="corporate">Corporate and Commercial Law</option>
-                  <option value="employment">Employment and Labour Law</option>
-                  <option value="healthcare">Pharmaceutical and Healthcare Law</option>
-                  <option value="consumer">Consumer Law</option>
-                  <option value="litigation">Litigation</option>
-                  <option value="competition">Competition Law</option>
-                  <option value="international">International Law</option>
-                  <option value="tax">Tax Law</option>
-                  <option value="career">Career Opportunity</option>
-                  <option value="security">Security Concern</option>
-                  <option value="other">Other</option>
+                  <option value="" disabled selected data-i18n="contactUs.form.subjects.placeholder">Select a subject</option>
+                  <option value="general" data-i18n="contactUs.form.subjects.general">General Inquiry</option>
+                  <option value="corporate" data-i18n="contactUs.form.subjects.corporate">Corporate and Commercial Law</option>
+                  <option value="employment" data-i18n="contactUs.form.subjects.employment">Employment and Labour Law</option>
+                  <option value="healthcare" data-i18n="contactUs.form.subjects.healthcare">Pharmaceutical and Healthcare Law</option>
+                  <option value="consumer" data-i18n="contactUs.form.subjects.consumer">Consumer Law</option>
+                  <option value="litigation" data-i18n="contactUs.form.subjects.litigation">Litigation</option>
+                  <option value="competition" data-i18n="contactUs.form.subjects.competition">Competition Law</option>
+                  <option value="international" data-i18n="contactUs.form.subjects.international">International Law</option>
+                  <option value="tax" data-i18n="contactUs.form.subjects.tax">Tax Law</option>
+                  <option value="career" data-i18n="contactUs.form.subjects.career">Career Opportunity</option>
+                  <option value="security" data-i18n="contactUs.form.subjects.security">Security Concern</option>
+                  <option value="other" data-i18n="contactUs.form.subjects.other">Other</option>
                 </select>
                 <p class="form-error" id="subject-error">Please select a subject.</p>
               </div>
 
               <div class="form-group">
-                <label for="message">Your Message <span class="required">*</span></label>
+                <label for="message"><span data-i18n="contactUs.form.message">Your Message</span> <span class="required">*</span></label>
                 <textarea id="message" name="message" class="form-textarea"
                   placeholder="Please describe your legal matter or inquiry..." required></textarea>
                 <p class="form-error" id="message-error">Please enter your message.</p>
               </div>
 
               <button type="submit" class="btn btn-primary btn-submit btn-full" id="submitBtn">
-                <span class="btn-text">Send Message</span>
+                <span class="btn-text" data-i18n="contactUs.form.submit">Send Message</span>
                 <span class="spinner" aria-hidden="true"></span>
               </button>
 
-              <div class="form-success-msg" id="successMsg">
+              <div class="form-success-msg" id="successMsg" data-i18n="contactUs.form.successMsg">
                 Thank you for your message. We will get back to you shortly.
               </div>
             </form>
@@ -196,7 +196,7 @@
           <div class="firm-info" data-animate="fade-right" data-delay="1">
 
             <div class="firm-info__block">
-              <h3>Contact Details</h3>
+              <h3 data-i18n="contactUs.firmInfo.contactDetails">Contact Details</h3>
               <p><strong>Celen LawFirm</strong><br>98, Konya Yolu Üzeri Balgat<br>06520 Çankaya/Ankara, Turkey</p>
               <p>
                 <a href="mailto:info@celenchambers.org">celenchambers@outlook.com</a> (Primary)<br>
@@ -206,11 +206,11 @@
                 <a href="tel:+905330915839">+90 533 091 58 39</a> (Tel/Fax/WhatsApp)<br>
                 <a href="tel:+14453063015">+1 445 306 3015</a> (International)
               </p>
-              <p>Monday – Friday: 09:00 – 18:00</p>
+              <p data-i18n="contactUs.firmInfo.hours">Monday – Friday: 09:00 – 18:00</p>
             </div>
 
             <div class="firm-info__block">
-              <h3>Our Office</h3>
+              <h3 data-i18n="contactUs.firmInfo.office">Our Office</h3>
               <div class="firm-info__map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.7719602410886!2d32.812328115379654!3d39.897455879428574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d345f7823f9011%3A0xc3b8655adbb1ea4f!2sKonya%20Yolu%20%C3%9Czeri%2C%20%C3%87ankaya%2FAnkara!5e0!3m2!1sen!2s!4v1680000000000!5m2!1sen!2s"
@@ -223,14 +223,14 @@
             </div>
 
             <div class="firm-info__block">
-              <h3>Quick Links</h3>
-              <p><a href="practice-areas.html">Practice Areas</a></p>
-              <p><a href="our-lawyers.html">Our Lawyers</a></p>
-              <p><a href="online-security.html">Online Security</a></p>
+              <h3 data-i18n="contactUs.firmInfo.quickLinks">Quick Links</h3>
+              <p><a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a></p>
+              <p><a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a></p>
+              <p><a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a></p>
             </div>
 
             <div class="firm-info__block">
-              <h3>Follow Us</h3>
+              <h3 data-i18n="contactUs.firmInfo.followUs">Follow Us</h3>
               <div class="firm-info__socials">
                 <a href="#" aria-label="LinkedIn">
                   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -259,19 +259,19 @@
     <section class="faq-section section-padding" aria-labelledby="faq-heading">
       <div class="container">
         <header class="section-header" data-animate="heading">
-          <p class="label-xl">Frequently Asked</p>
-          <h2 id="faq-heading" class="heading-l">Common Questions</h2>
+          <p class="label-xl" data-i18n="contactUs.faq.label">Frequently Asked</p>
+          <h2 id="faq-heading" class="heading-l" data-i18n="contactUs.faq.heading">Common Questions</h2>
         </header>
 
         <div class="accordion" data-animate="fade-up" data-delay="1">
 
           <div class="accordion__item">
             <button class="accordion__header" aria-expanded="false">
-              <span class="accordion__question">What should I bring to my initial consultation?</span>
+              <span class="accordion__question" data-i18n="contactUs.faq.q1">What should I bring to my initial consultation?</span>
               <span class="accordion__icon" aria-hidden="true">+</span>
             </button>
             <div class="accordion__body">
-              <p class="accordion__answer">Please bring any relevant documents, correspondence, contracts, or court
+              <p class="accordion__answer" data-i18n="contactUs.faq.a1">Please bring any relevant documents, correspondence, contracts, or court
                 papers related to your matter. Also bring a form of identification. The more information you provide,
                 the better we can assess your situation.</p>
             </div>
@@ -279,11 +279,11 @@
 
           <div class="accordion__item">
             <button class="accordion__header" aria-expanded="false">
-              <span class="accordion__question">How are your legal fees structured?</span>
+              <span class="accordion__question" data-i18n="contactUs.faq.q2">How are your legal fees structured?</span>
               <span class="accordion__icon" aria-hidden="true">+</span>
             </button>
             <div class="accordion__body">
-              <p class="accordion__answer">Our fee structure varies depending on the nature and complexity of the
+              <p class="accordion__answer" data-i18n="contactUs.faq.a2">Our fee structure varies depending on the nature and complexity of the
                 matter. We offer hourly rates, fixed fees for certain services, and retainer arrangements. We will
                 discuss fees transparently during your initial consultation.</p>
             </div>
@@ -291,35 +291,35 @@
 
           <div class="accordion__item">
             <button class="accordion__header" aria-expanded="false">
-              <span class="accordion__question">Do you offer services in languages other than English?</span>
+              <span class="accordion__question" data-i18n="contactUs.faq.q3">Do you offer services in languages other than English?</span>
               <span class="accordion__icon" aria-hidden="true">+</span>
             </button>
             <div class="accordion__body">
-              <p class="accordion__answer">Yes, our team includes fluent speakers of Turkish, French, German, Spanish,
+              <p class="accordion__answer" data-i18n="contactUs.faq.a3">Yes, our team includes fluent speakers of Turkish, French, German, Spanish,
                 and Arabic. We can also arrange interpreter services for other languages as needed.</p>
             </div>
           </div>
 
           <div class="accordion__item">
             <button class="accordion__header" aria-expanded="false">
-              <span class="accordion__question">How do I know if my online communications with the firm are
+              <span class="accordion__question" data-i18n="contactUs.faq.q4">How do I know if my online communications with the firm are
                 secure?</span>
               <span class="accordion__icon" aria-hidden="true">+</span>
             </button>
             <div class="accordion__body">
-              <p class="accordion__answer">We use encrypted email and a secure client portal for document exchange. Look
-                for 'https://' in the URL and never share passwords via email. For more information, visit our <a
+              <p class="accordion__answer"><span data-i18n="contactUs.faq.a4">We use encrypted email and a secure client portal for document exchange. Look
+                for 'https://' in the URL and never share passwords via email. For more information, visit our</span> <a
                   href="online-security.html">Online Security</a> page.</p>
             </div>
           </div>
 
           <div class="accordion__item">
             <button class="accordion__header" aria-expanded="false">
-              <span class="accordion__question">What geographic areas do you serve?</span>
+              <span class="accordion__question" data-i18n="contactUs.faq.q5">What geographic areas do you serve?</span>
               <span class="accordion__icon" aria-hidden="true">+</span>
             </button>
             <div class="accordion__body">
-              <p class="accordion__answer">While based in Ankara, Turkey, we serve clients nationally and
+              <p class="accordion__answer" data-i18n="contactUs.faq.a5">While based in Ankara, Turkey, we serve clients nationally and
                 internationally. We have experience with cross-border transactions and can coordinate with correspondent
                 firms worldwide.</p>
             </div>
@@ -336,7 +336,7 @@
       <div class="footer__grid" data-animate="fade-up">
         <div>
           <p class="footer__brand">Celen LawFirm</p>
-          <p class="footer__tagline">International Legal Excellence Since 2001</p>
+          <p class="footer__tagline" data-i18n="footer.tagline">International Legal Excellence Since 2001</p>
           <div class="footer__socials">
             <a href="#" aria-label="LinkedIn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -356,36 +356,36 @@
           </div>
         </div>
         <div>
-          <p class="footer__heading">Navigate</p>
+          <p class="footer__heading" data-i18n="footer.navigate">Navigate</p>
           <ul class="footer__links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="practice-areas.html">Practice Areas</a></li>
-            <li><a href="our-lawyers.html">Our Lawyers</a></li>
-            <li><a href="online-security.html">Online Security</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a></li>
+            <li><a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a></li>
+            <li><a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a></li>
+            <li><a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a></li>
           </ul>
         </div>
         <div>
-          <p class="footer__heading">Expertise</p>
+          <p class="footer__heading" data-i18n="footer.expertise">Expertise</p>
           <ul class="footer__links">
-            <li><a href="practice-areas.html#corporate">Corporate &amp; Commercial</a></li>
-            <li><a href="practice-areas.html#employment">Employment &amp; Labour</a></li>
-            <li><a href="practice-areas.html#healthcare">Pharmaceutical &amp; Healthcare</a></li>
-            <li><a href="practice-areas.html#consumer">Consumer Law</a></li>
-            <li><a href="practice-areas.html#litigation">Litigation</a></li>
+            <li><a href="practice-areas.html#corporate" data-i18n="practiceAreas.corporate.title">Corporate &amp; Commercial</a></li>
+            <li><a href="practice-areas.html#employment" data-i18n="practiceAreas.employment.title">Employment &amp; Labour</a></li>
+            <li><a href="practice-areas.html#healthcare" data-i18n="practiceAreas.healthcare.title">Pharmaceutical &amp; Healthcare</a></li>
+            <li><a href="practice-areas.html#consumer" data-i18n="practiceAreas.consumer.title">Consumer Law</a></li>
+            <li><a href="practice-areas.html#litigation" data-i18n="practiceAreas.litigation.title">Litigation</a></li>
           </ul>
         </div>
         <div class="footer__contact">
-          <p class="footer__heading">Contact</p>
+          <p class="footer__heading" data-i18n="footer.contact">Contact</p>
           <p>Celen LawFirm, Ankara, Turkey</p>
           <p><a href="mailto:info@celenchambers.org">info@celenchambers.org</a></p>
           <p><a href="tel:+905330915839">+90 533 091 58 39</a></p>
-          <a href="contact-us.html" class="btn btn-secondary-white">Get in Touch</a>
+          <a href="contact-us.html" class="btn btn-secondary-white" data-i18n="footer.cta">Get in Touch</a>
         </div>
       </div>
       <div class="footer__bottom">
-        <p>&copy; 2026 Celen LawFirm. All rights reserved.</p>
-        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p data-i18n="footer.copyright">&copy; 2026 Celen LawFirm. All rights reserved.</p>
+        <p><a href="#" data-i18n="footer.privacy">Privacy Policy</a> | <a href="#" data-i18n="footer.terms">Terms of Service</a></p>
       </div>
     </div>
   </footer>

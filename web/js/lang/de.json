@@ -1,0 +1,305 @@
+{
+    "pageTitle": "Celen LawFirm | Internationale Anwaltskanzlei",
+    "metaDescription": "Celen LawFirm ist eine internationale Full-Service-Anwaltskanzlei mit Sitz in Ankara, Türkei. Juristische Exzellenz in den Bereichen Gesellschafts-, Handels-, Arbeits-, Prozess-, Gesundheits-, Wettbewerbs-, Steuer- und Völkerrecht.",
+    "nav": {
+        "home": "Startseite",
+        "practiceAreas": "Rechtsgebiete",
+        "ourLawyers": "Unsere Anwälte",
+        "onlineSecurity": "Online-Sicherheit",
+        "contactUs": "Kontakt"
+    },
+    "home": {
+        "hero": {
+            "label": "Internationale Anwaltskanzlei",
+            "title": "Celen LawFirm",
+            "subtitle": "Professionelle Rechtsdienstleistungen",
+            "description": "Eine Full-Service-Anwaltskanzlei mit Sitz in Ankara, Türkei. Wir sind eine führende Kanzlei mit nationalem und internationalem Mandantenstamm und bieten fachkundige Beratung in den Bereichen Gesellschafts-, Handels-, Arbeits-, Prozess-, Gesundheits-, Wettbewerbs-, Steuer- und Völkerrecht.",
+            "ctaPrimary": "Dienstleistungen entdecken",
+            "ctaSecondary": "Kontaktieren Sie uns"
+        },
+        "about": {
+            "label": "Wer wir sind",
+            "heading": "Zwei Jahrzehnte juristische Exzellenz",
+            "body1": "Celen LawFirm ist eine Full-Service-Anwaltskanzlei mit Sitz in Ankara, Türkei. Wir sind eine mittelständische Kanzlei mit einem nationalen und internationalen Mandantenstamm. Unsere Expertise umfasst unter anderem Gesellschafts- und Handelsrecht, Arbeitsrecht, Pharma- und Medizinrecht, Verbraucherschutzrecht, Prozessführung, Wettbewerbsrecht, Völkerrecht und Steuerrecht.",
+            "body2": "Gegründet auf den Prinzipien von Integrität, Sorgfalt und strategischem Denken, haben wir dauerhafte Beziehungen zu Mandanten aufgebaut, die von multinationalen Konzernen bis hin zu Einzelpersonen reichen, die vertrauenswürdige Rechtsberatung suchen. Unser Ansatz verbindet traditionelles juristisches Handwerk mit moderner Effizienz.",
+            "cta": "Mehr über uns erfahren"
+        },
+        "practice": {
+            "label": "Unsere Expertise",
+            "heading": "Umfassende Rechtsdienstleistungen",
+            "subtext": "Maßgeschneiderte Lösungen für komplexe rechtliche Herausforderungen über Gerichtsbarkeiten hinweg",
+            "card1": {
+                "number": "01",
+                "title": "Gesellschafts- und Handelsrecht",
+                "desc": "Unternehmensgründungen, Strukturierung, Mergers & Acquisitions, Corporate-Governance-Beratung, Aktionärsvereinbarungen und Handelsverträge für Unternehmen jeder Größe."
+            },
+            "card2": {
+                "number": "02",
+                "title": "Arbeitsrecht",
+                "desc": "Strategische Beratung zu Arbeitsverträgen, Tarifverhandlungen, Compliance am Arbeitsplatz, Entlassungen, Diskriminierungsklagen und Arbeitsstreitigkeiten."
+            },
+            "card3": {
+                "number": "03",
+                "title": "Pharma- und Medizinrecht",
+                "desc": "Spezialisierte Beratung für Life-Sciences-Unternehmen, Gesundheitsdienstleister und Biotech-Firmen bei klinischen Studien, medizinischen Vorschriften und Patentfragen."
+            },
+            "card4": {
+                "number": "04",
+                "title": "Verbraucherschutzrecht",
+                "desc": "Engagierte Interessenvertretung zum Schutz von Verbraucherrechten, Sicherstellung der Produktsicherheit, Verteidigung gegen unlautere Geschäftspraktiken und Sammelklagen."
+            },
+            "cta": "Alle Rechtsgebiete anzeigen"
+        },
+        "lawyers": {
+            "label": "Unser Team",
+            "heading": "Lernen Sie unsere Partner kennen",
+            "body": "Unsere Partner verfügen über jahrzehntelange gebündelte Erfahrung in mehreren Gerichtsbarkeiten und Rechtsgebieten. Jeder Anwalt führt mit einem klaren Bekenntnis zum Erfolg der Mandanten und zu juristischer Exzellenz.",
+            "cta": "Alle Anwälte anzeigen"
+        },
+        "security": {
+            "label": "Mandantenschutz",
+            "heading": "Ihre Sicherheit ist unsere Priorität",
+            "body": "In einer Zeit zunehmender digitaler Bedrohungen glauben wir, dass informierte Mandanten geschützte Mandanten sind. Unser Ressourcenzentrum für Online-Sicherheit bietet praktische Anleitungen zum Schutz Ihrer sensiblen Rechtsdaten, zur Erkennung potenzieller Risiken und zur Einhaltung von Best Practices bei der Kommunikation mit der Celen LawFirm.",
+            "items": [
+                "Sichere Kommunikationsprotokolle für sensible Angelegenheiten",
+                "Best Practices für den Online-Dokumentenaustausch",
+                "Erkennen und Vermeiden von Phishing-Versuchen",
+                "Empfehlungen zu Browser-Sicherheit und Datenschutz"
+            ],
+            "cta": "Sicherheitszentrum besuchen"
+        },
+        "contact": {
+            "label": "Kontakt aufnehmen",
+            "heading": "Lassen Sie uns über Ihre rechtlichen Bedürfnisse sprechen",
+            "body": "Ob Sie Beratung bei einer komplexen Unternehmenstransaktion, Unterstützung in arbeitsrechtlichen Angelegenheiten oder Begleitung bei einem internationalen Streitfall benötigen, unser Team ist bereit, Ihnen zuzuhören und Sie zu beraten. Vereinbaren Sie noch heute ein vertrauliches Beratungsgespräch.",
+            "ctaPrimary": "Beratungsgespräch vereinbaren",
+            "ctaSecondary": "Rufen Sie uns an"
+        }
+    },
+    "practiceAreas": {
+        "pageTitle": "Rechtsgebiete | Celen LawFirm",
+        "pageHeader": {
+            "label": "Rechtsgebiete",
+            "heading": "Unsere Fachgebiete",
+            "subtext": "Umfassende Rechtsdienstleistungen, die darauf zugeschnitten sind, Ihre Interessen zu schützen und Ihre Ziele voranzutreiben"
+        },
+        "corporate": {
+            "number": "01",
+            "title": "Gesellschafts- und Handelsrecht",
+            "desc": "Unsere Anwälte konzentrieren sich auf gesellschaftsrechtliche Arbeiten, einschließlich Gründungen, Strukturierung, Steuerberatung, Due Diligence, Verfassen von Memoranden, Dokumentenerstellung und behördliche Anmeldungen. Wir entwerfen routinemäßig Handelsverträge, Unternehmensbeschlüsse und Aktionärsvereinbarungen für inhabergeführte Unternehmen und vertreten Mandanten in transaktionsbezogenen Streitigkeiten.",
+            "services": [
+                "Unternehmensgründungen & Strukturierung",
+                "M&A Strategische Beratung",
+                "Corporate Governance & Compliance",
+                "Vertragsgestaltung & -prüfung",
+                "Aktionärs- & Beteiligungsvereinbarungen",
+                "Regulatorische & staatliche Einreichungen"
+            ]
+        },
+        "employment": {
+            "number": "02",
+            "title": "Arbeitsrecht",
+            "desc": "Wir führen Unternehmen und Führungskräfte durch die komplexen Rahmenbedingungen des Arbeitsrechts. Unsere Dienstleistungen umfassen Arbeitsplatzrichtlinien, Lohn- und Arbeitszeit-Compliance, Abwehr von Diskriminierungsklagen, Vergütung von Führungskräften und die Vertretung vor Schiedsgerichten und Arbeitsgerichten, um optimale Lösungen zu erzielen.",
+            "services": [
+                "Arbeitsverträge & Richtlinien",
+                "Tarifverträge",
+                "Arbeitsplatz-Compliance & Audits",
+                "Entlassungen & Umstrukturierungen",
+                "Diskriminierungs- & Belästigungsklagen",
+                "Vertretung bei Arbeitsstreitigkeiten"
+            ]
+        },
+        "healthcare": {
+            "number": "03",
+            "title": "Pharma- und Medizinrecht",
+            "desc": "Beratung von Life-Sciences-Unternehmen, medizinischen Einrichtungen und Fachkräften in den strengen regulatorischen Umgebungen rund um Medizinprodukte, Pharmazeutika, klinische Studien und Healthcare-Compliance, um die Lücke zwischen medizinischer Innovation und regulatorischen Anforderungen zu schließen.",
+            "services": [
+                "Regulatorische Compliance & Lizenzierung",
+                "Verträge für klinische Studien",
+                "Schutz des geistigen Eigentums & Patente",
+                "Beratung bei Betrug und Missbrauch im Gesundheitswesen",
+                "Verteidigung bei Produkthaftung",
+                "Vertretung bei ärztlichen Kunstfehlern"
+            ]
+        },
+        "consumer": {
+            "number": "04",
+            "title": "Verbraucherschutzrecht",
+            "desc": "Unsere Kanzlei widmet sich dem Schutz von Verbrauchern vor unlauteren Geschäftspraktiken, irreführendem Marketing, fehlerhaften Produkten und räuberischer Kreditvergabe. Wir vertreten Mandanten in Einzelklagen und Sammelklagen und beraten gleichzeitig Unternehmen bei der Einhaltung von Verbraucherstandards.",
+            "services": [
+                "Verbraucherschutzklagen",
+                "Produkthaftung & Sicherheit",
+                "Prüfung von Werbung & fairem Handel",
+                "E-Commerce & digitale Compliance",
+                "Abwehr räuberischer Finanzierungen",
+                "Verbrauchersammelklagen"
+            ]
+        },
+        "litigation": {
+            "number": "05",
+            "title": "Prozessführung",
+            "desc": "Unsere Prozessanwälte sind bestens vertraut mit der Vertretung von Mandanten in Zivil-, Handels-, Bau- und Vertragsstreitigkeiten. Wir setzen uns vor staatlichen Gerichten, in Berufungsverfahren und vor internationalen Schiedsgerichten aggressiv für unsere Mandanten ein, mit Fokus auf eine kostengünstige, strategische Streitbeilegung.",
+            "services": [
+                "Vertretung vor Handelsgerichten",
+                "Durchsetzung von Verträgen",
+                "Rechtsstreitigkeiten wegen unerlaubter Handlungen",
+                "Internationale Schiedsverfahren",
+                "Einstweilige Verfügungen & Vollstreckung",
+                "Vertretung vor Berufungsgerichten"
+            ]
+        },
+        "competition": {
+            "number": "06",
+            "title": "Wettbewerbsrecht",
+            "desc": "Die Navigation durch moderne Kartell- und Wettbewerbsgesetze erfordert tiefe strategische Einblicke. Wir vertreten Unternehmenskunden bei Kartelluntersuchungen, Fusionsfreigaben und Untersuchungen wegen Missbrauchs einer marktbeherrschenden Stellung und bieten präventive Compliance-Audits zur Minimierung wettbewerbswidriger Risiken.",
+            "services": [
+                "Freigabe der Fusionskontrolle",
+                "Verteidigung bei Kartelluntersuchungen",
+                "Beratung zum Missbrauch der Marktbeherrschung",
+                "Präventive Kartell-Audits",
+                "Wettbewerbs-Compliance-Programme",
+                "Vertriebs- & Lizenzverträge"
+            ]
+        },
+        "international": {
+            "number": "07",
+            "title": "Internationales Recht",
+            "desc": "Spezialisierte Rechtsdienstleistungen für grenzüberschreitende Handelstransaktionen, internationale Handelsstreitigkeiten, Zollvorschriften, maritime Angelegenheiten und die Einhaltung bilateraler Verträge. Wir fungieren als vertrauenswürdiger globaler Berater in Angelegenheiten, die mehrere Gerichtsbarkeiten betreffen.",
+            "services": [
+                "Grenzüberschreitende Handelstransaktionen",
+                "Internationale Schiedsgerichte",
+                "Sanktionen & Handels-Compliance",
+                "See- & Schifffahrtsrecht",
+                "Beratung zur Einhaltung von Verträgen",
+                "Streitigkeiten über mehrere Gerichtsbarkeiten"
+            ]
+        },
+        "tax": {
+            "number": "08",
+            "title": "Steuerrecht",
+            "desc": "Umfassende steuerliche Beratung für Unternehmen und Privatpersonen zur steuereffizientesten Strukturierung von Geschäftstransaktionen, grenzüberschreitenden Deals und Nachlassplanungen. Wir helfen Mandanten, komplexe Betriebsprüfungen und Streitigkeiten mit Steuerbehörden erfolgreich zu lösen.",
+            "services": [
+                "Steuerliche Strukturierung von Unternehmen",
+                "Internationale Steuerplanung",
+                "Vermögens- & Anlagenschutz",
+                "Vertretung bei Betriebsprüfungen",
+                "MwSt. & Beratung zu indirekten Steuern",
+                "Erbschaftssteuerstrategie"
+            ]
+        },
+        "cta": {
+            "heading": "Benötigen Sie Rechtsberatung?",
+            "body": "Unser Team ist bereit, Sie bei Ihrer rechtlichen Angelegenheit zu unterstützen. Kontaktieren Sie uns für eine vertrauliche Beratung.",
+            "button": "Unser Team kontaktieren"
+        }
+    },
+    "ourLawyers": {
+        "pageTitle": "Unsere Anwälte | Celen LawFirm",
+        "pageHeader": {
+            "label": "Unser Team",
+            "heading": "Unsere Anwälte",
+            "subtext": "Erfahrene Anwälte, die sich dafür einsetzen, die besten Ergebnisse für unsere Mandanten zu erzielen"
+        },
+        "joinTeam": {
+            "heading": "Treten Sie unserem Team bei",
+            "body": "Wir sind immer daran interessiert, von talentierten Juristen zu hören, die unser Engagement für Exzellenz teilen. Wenn Sie an einer Karriere bei der Celen LawFirm interessiert sind, freuen wir uns auf Ihre Anfrage.",
+            "button": "Möglichkeiten ansehen"
+        }
+    },
+    "onlineSecurity": {
+        "pageTitle": "Online-Sicherheit | Celen LawFirm",
+        "pageHeader": {
+            "label": "Ressourcen für Mandanten",
+            "heading": "Online-Sicherheitszentrum",
+            "subtext": "Praktische Ratschläge, die Ihnen helfen, im digitalen Umfeld sicher zu bleiben, während Sie unsere Rechtsdienstleistungen in Anspruch nehmen"
+        },
+        "intro": {
+            "label": "Sicher im Internet bleiben",
+            "heading": "Gehen Sie auf Nummer sicher",
+            "body": "Im heutigen digitalen Umfeld ist der Schutz Ihrer persönlichen und rechtlichen Informationen im Internet wichtiger denn je. Bei der Celen LawFirm verpflichten wir uns nicht nur zur Erbringung außergewöhnlicher juristischer Dienstleistungen, sondern auch dazu, dass Ihre Interaktionen mit uns sicher bleiben."
+        },
+        "sidebar": {
+            "heading": "Themen",
+            "topics": [
+                "Allgemeine Richtlinien",
+                "Browser-Software",
+                "Cookies",
+                "Anti-Spyware",
+                "E-Mail-Sicherheit",
+                "Kommunikation mit unserer Kanzlei"
+            ]
+        },
+        "cta": {
+            "heading": "Haben Sie ein Sicherheitsbedenken?",
+            "body": "Wenn Sie einen unbefugten Zugriff auf Ihre Informationen vermuten oder verdächtige Nachrichten erhalten haben, die angeblich von der Celen LawFirm stammen, kontaktieren Sie uns bitte umgehend.",
+            "button": "Ein Sicherheitsbedenken melden"
+        }
+    },
+    "contactUs": {
+        "pageTitle": "Kontakt | Celen LawFirm",
+        "pageHeader": {
+            "label": "Kontakt",
+            "heading": "Kontakt aufnehmen",
+            "subtext": "Wir freuen uns auf Ihre Anfragen. Kontaktieren Sie uns, um zu besprechen, wie die Celen LawFirm Sie bei Ihren rechtlichen Bedürfnissen unterstützen kann."
+        },
+        "form": {
+            "heading": "Senden Sie uns eine Nachricht",
+            "name": "Vollständiger Name",
+            "email": "E-Mail-Adresse",
+            "phone": "Telefonnummer",
+            "subject": "Betreff",
+            "message": "Ihre Nachricht",
+            "submit": "Nachricht senden",
+            "sending": "Wird gesendet...",
+            "success": "Nachricht gesendet \u2713",
+            "error": "Fehler \u2014 Erneut versuchen",
+            "successMsg": "Vielen Dank für Ihre Nachricht. Wir werden uns in Kürze bei Ihnen melden.",
+            "subjects": {
+                "placeholder": "Wählen Sie ein Thema",
+                "general": "Allgemeine Anfrage",
+                "corporate": "Gesellschafts- und Handelsrecht",
+                "employment": "Arbeitsrecht",
+                "healthcare": "Pharma- und Medizinrecht",
+                "consumer": "Verbraucherschutzrecht",
+                "litigation": "Prozessführung",
+                "competition": "Wettbewerbsrecht",
+                "international": "Internationales Recht",
+                "tax": "Steuerrecht",
+                "career": "Karrieremöglichkeit",
+                "security": "Sicherheitsbedenken",
+                "other": "Sonstiges"
+            }
+        },
+        "firmInfo": {
+            "contactDetails": "Kontaktdaten",
+            "office": "Unser Büro",
+            "quickLinks": "Schnelllinks",
+            "followUs": "Folgen Sie uns",
+            "hours": "Montag \u2013 Freitag: 09:00 \u2013 18:00 Uhr"
+        },
+        "faq": {
+            "label": "Häufig gestellt",
+            "heading": "Häufige Fragen",
+            "q1": "Was sollte ich zu meinem Erstgespräch mitbringen?",
+            "a1": "Bitte bringen Sie alle relevanten Dokumente, Korrespondenzen, Verträge oder Gerichtsunterlagen im Zusammenhang mit Ihrer Angelegenheit mit. Bringen Sie auch einen Ausweis mit. Je mehr Informationen Sie bereitstellen, desto besser können wir Ihre Situation beurteilen.",
+            "q2": "Wie sind Ihre Anwaltsgebühren strukturiert?",
+            "a2": "Unsere Gebührenstruktur variiert je nach Art und Komplexität der Angelegenheit. Wir bieten Stundensätze, Festpreise für bestimmte Dienstleistungen und Retainer-Vereinbarungen an. Wir werden die Gebühren während Ihres Erstgesprächs transparent besprechen.",
+            "q3": "Bieten Sie Dienstleistungen in anderen Sprachen als Englisch an?",
+            "a3": "Ja, unser Team umfasst fließend sprechende Personen in Türkisch, Französisch, Deutsch, Spanisch und Arabisch. Bei Bedarf können wir auch Dolmetscherdienste für andere Sprachen organisieren.",
+            "q4": "Wie weiß ich, ob meine Online-Kommunikation mit der Kanzlei sicher ist?",
+            "a4": "Wir verwenden verschlüsselte E-Mails und ein sicheres Mandantenportal für den Dokumentenaustausch. Achten Sie auf 'https://' in der URL und geben Sie niemals Passwörter per E-Mail weiter. Weitere Informationen finden Sie auf unserer Seite für Online-Sicherheit.",
+            "q5": "Welche geografischen Gebiete bedienen Sie?",
+            "a5": "Obwohl unser Hauptsitz in Ankara, Türkei, liegt, betreuen wir Mandanten auf nationaler und internationaler Ebene. Wir haben Erfahrung mit grenzüberschreitenden Transaktionen und können mit Korrespondenzkanzleien weltweit zusammenarbeiten."
+        }
+    },
+    "footer": {
+        "tagline": "Internationale juristische Exzellenz seit 2001",
+        "navigate": "Navigation",
+        "expertise": "Expertise",
+        "contact": "Kontakt",
+        "cta": "Kontakt aufnehmen",
+        "copyright": "\u00a9 2026 Celen LawFirm. Alle Rechte vorbehalten.",
+        "privacy": "Datenschutzrichtlinie",
+        "terms": "Nutzungsbedingungen"
+    }
+}

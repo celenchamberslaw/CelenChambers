@@ -27,11 +27,11 @@
     </a>
     
     <nav class="navbar__nav" role="navigation" aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="practice-areas.html">Practice Areas</a>
-      <a href="our-lawyers.html">Our Lawyers</a>
-      <a href="online-security.html" class="active">Online Security</a>
-      <a href="contact-us.html">Contact Us</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a>
+      <a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a>
+      <a href="online-security.html" class="active" data-i18n="nav.onlineSecurity">Online Security</a>
+      <a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a>
     </nav>
     
     <div class="navbar__lang dropdown" aria-label="Language selector">
@@ -69,11 +69,11 @@
   </header>
   
   <div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
-    <a href="index.html">Home</a>
-    <a href="practice-areas.html">Practice Areas</a>
-    <a href="our-lawyers.html">Our Lawyers</a>
-    <a href="online-security.html">Online Security</a>
-    <a href="contact-us.html">Contact Us</a>
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a>
+    <a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a>
+    <a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a>
+    <a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a>
     <div class="mobile-menu__lang dropdown">
       <div class="dropdown__menu--static">
         <div class="mobile-lang-header">
@@ -104,11 +104,11 @@
     <section class="page-header" aria-label="Page header">
       <div class="page-header__bg" style="background-image: url('images/page-header-security.jpg');" role="img" aria-label="Digital security visualization"></div>
       <div class="page-header__content">
-        <p class="label-xl" data-animate="heading">Client Resources</p>
-        <h1 class="display-l" data-animate="heading" data-delay="1">Online Security Center</h1>
-        <p class="body-l" data-animate="fade-up" data-delay="2">Practical guidance to help you stay safe in the digital landscape while engaging with our legal services</p>
+        <p class="label-xl" data-animate="heading" data-i18n="onlineSecurity.pageHeader.label">Client Resources</p>
+        <h1 class="display-l" data-animate="heading" data-delay="1" data-i18n="onlineSecurity.pageHeader.heading">Online Security Center</h1>
+        <p class="body-l" data-animate="fade-up" data-delay="2" data-i18n="onlineSecurity.pageHeader.subtext">Practical guidance to help you stay safe in the digital landscape while engaging with our legal services</p>
         <nav class="page-header__breadcrumb" aria-label="Breadcrumb" data-animate="fade-up" data-delay="3">
-          <a href="index.html">Home</a> / Online Security
+          <a href="index.html" data-i18n="nav.home">Home</a> / <span data-i18n="nav.onlineSecurity">Online Security</span>
         </nav>
       </div>
     </section>
@@ -116,10 +116,10 @@
     <!-- Security Introduction -->
     <section class="section-padding" style="background: var(--white);" aria-labelledby="security-intro-heading">
       <div class="container-narrow" data-animate="fade-up">
-        <p class="label-xl" style="color: var(--blue-accent); text-align: center;">Staying Safe Online</p>
+        <p class="label-xl" style="color: var(--blue-accent); text-align: center;" data-i18n="onlineSecurity.intro.label">Staying Safe Online</p>
         <div class="decorative-line"></div>
-        <h2 id="security-intro-heading" class="heading-l" style="text-align: center;">Take a Walk on the Safe Side</h2>
-        <p class="body-l" style="color: var(--text-secondary); text-align: center; margin-top: 2.4rem;">
+        <h2 id="security-intro-heading" class="heading-l" style="text-align: center;" data-i18n="onlineSecurity.intro.heading">Take a Walk on the Safe Side</h2>
+        <p class="body-l" style="color: var(--text-secondary); text-align: center; margin-top: 2.4rem;" data-i18n="onlineSecurity.intro.body">
           In today's digital environment, protecting your personal and legal information online is more important than ever. At Celen Chambers, we are committed not only to providing exceptional legal services but also to ensuring that your interactions with us remain secure. This resource center provides essential guidance on safe online practices.
         </p>
       </div>
@@ -143,14 +143,14 @@
           
           <!-- Sticky Sidebar -->
           <aside class="security-sidebar" aria-label="Topic navigation">
-            <p class="security-sidebar__heading">Topics</p>
+            <p class="security-sidebar__heading" data-i18n="onlineSecurity.sidebar.heading">Topics</p>
             <nav class="security-sidebar__nav">
-              <a href="#general" class="active">General Guidelines</a>
-              <a href="#browser">Browser Software</a>
-              <a href="#cookies">Cookies</a>
-              <a href="#antispyware">Anti-Spyware</a>
-              <a href="#email">Email Security</a>
-              <a href="#communication">Communication with Our Firm</a>
+              <a href="#general" class="active" data-i18n="onlineSecurity.sidebar.topics.0">General Guidelines</a>
+              <a href="#browser" data-i18n="onlineSecurity.sidebar.topics.1">Browser Software</a>
+              <a href="#cookies" data-i18n="onlineSecurity.sidebar.topics.2">Cookies</a>
+              <a href="#antispyware" data-i18n="onlineSecurity.sidebar.topics.3">Anti-Spyware</a>
+              <a href="#email" data-i18n="onlineSecurity.sidebar.topics.4">Email Security</a>
+              <a href="#communication" data-i18n="onlineSecurity.sidebar.topics.5">Communication with Our Firm</a>
             </nav>
           </aside>
           
@@ -280,9 +280,9 @@
     <!-- Security Concern CTA -->
     <section class="security-cta-section" aria-label="Report security concern">
       <div class="container">
-        <h2 class="heading-m" data-animate="heading">Have a Security Concern?</h2>
-        <p class="body-l" data-animate="fade-up" data-delay="1">If you suspect any unauthorized access to your information or have received suspicious communications claiming to be from Celen Chambers, please contact us immediately.</p>
-        <a href="contact-us.html" class="btn btn-primary" data-animate="fade-up" data-delay="2">Report a Security Concern</a>
+        <h2 class="heading-m" data-animate="heading" data-i18n="onlineSecurity.cta.heading">Have a Security Concern?</h2>
+        <p class="body-l" data-animate="fade-up" data-delay="1" data-i18n="onlineSecurity.cta.body">If you suspect any unauthorized access to your information or have received suspicious communications claiming to be from Celen Chambers, please contact us immediately.</p>
+        <a href="contact-us.html" class="btn btn-primary" data-animate="fade-up" data-delay="2" data-i18n="onlineSecurity.cta.button">Report a Security Concern</a>
       </div>
     </section>
   </main>
@@ -293,7 +293,7 @@
       <div class="footer__grid" data-animate="fade-up">
         <div>
           <p class="footer__brand">Celen Chambers</p>
-          <p class="footer__tagline">International Legal Excellence Since 2001</p>
+          <p class="footer__tagline" data-i18n="footer.tagline">International Legal Excellence Since 2001</p>
           <div class="footer__socials">
             <a href="#" aria-label="LinkedIn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
@@ -304,36 +304,36 @@
           </div>
         </div>
         <div>
-          <p class="footer__heading">Navigate</p>
+          <p class="footer__heading" data-i18n="footer.navigate">Navigate</p>
           <ul class="footer__links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="practice-areas.html">Practice Areas</a></li>
-            <li><a href="our-lawyers.html">Our Lawyers</a></li>
-            <li><a href="online-security.html">Online Security</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="practice-areas.html" data-i18n="nav.practiceAreas">Practice Areas</a></li>
+            <li><a href="our-lawyers.html" data-i18n="nav.ourLawyers">Our Lawyers</a></li>
+            <li><a href="online-security.html" data-i18n="nav.onlineSecurity">Online Security</a></li>
+            <li><a href="contact-us.html" data-i18n="nav.contactUs">Contact Us</a></li>
           </ul>
         </div>
         <div>
-          <p class="footer__heading">Expertise</p>
+          <p class="footer__heading" data-i18n="footer.expertise">Expertise</p>
           <ul class="footer__links">
-            <li><a href="practice-areas.html#corporate">Corporate Law</a></li>
-            <li><a href="practice-areas.html#litigation">Commercial Litigation</a></li>
-            <li><a href="practice-areas.html#wills">Wills &amp; Estates</a></li>
-            <li><a href="practice-areas.html#smallbusiness">Small Business</a></li>
-            <li><a href="practice-areas.html#cyber">Cybersecurity</a></li>
+            <li><a href="practice-areas.html#corporate" data-i18n="practiceAreas.corporate.title">Corporate Law</a></li>
+            <li><a href="practice-areas.html#employment" data-i18n="practiceAreas.employment.title">Employment &amp; Labour</a></li>
+            <li><a href="practice-areas.html#healthcare" data-i18n="practiceAreas.healthcare.title">Pharmaceutical &amp; Healthcare</a></li>
+            <li><a href="practice-areas.html#consumer" data-i18n="practiceAreas.consumer.title">Consumer Law</a></li>
+            <li><a href="practice-areas.html#litigation" data-i18n="practiceAreas.litigation.title">Litigation</a></li>
           </ul>
         </div>
         <div class="footer__contact">
-          <p class="footer__heading">Contact</p>
+          <p class="footer__heading" data-i18n="footer.contact">Contact</p>
           <p>Celen Chambers, Ankara, Turkey</p>
           <p><a href="mailto:info@celenchambers.com">info@celenchambers.com</a></p>
           <p><a href="tel:+90312XXXXXX">+90 312 XXX XXXX</a></p>
-          <a href="contact-us.html" class="btn btn-secondary-white">Get in Touch</a>
+          <a href="contact-us.html" class="btn btn-secondary-white" data-i18n="footer.cta">Get in Touch</a>
         </div>
       </div>
       <div class="footer__bottom">
-        <p>&copy; 2025 Celen Chambers. All rights reserved.</p>
-        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <p data-i18n="footer.copyright">&copy; 2025 Celen Chambers. All rights reserved.</p>
+        <p><a href="#" data-i18n="footer.privacy">Privacy Policy</a> | <a href="#" data-i18n="footer.terms">Terms of Service</a></p>
       </div>
     </div>
   </footer>
