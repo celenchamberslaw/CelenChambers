@@ -1,6 +1,20 @@
 // Vercel Serverless Function: web/api/send-email.js
 // Integrates with Resend API to send contact form submissions
 
+// Helper to sanitize HTML inputs to prevent XSS/Injection
+const escapeHTML = (str) => {
+  if (!str) return '';
+  return str.replace(/[&<>'"]/g, 
+    tag => ({
+      '&': '&amp;',
+      '<': '&lt;',
+      '>': '&gt;',
+      "'": '&#39;',
+      '"': '&quot;'
+    }[tag] || tag)
+  );
+};
+
 export default async function handler(req, res) {
   // Handle CORS Preflight request
   res.setHeader('Access-Control-Allow-Credentials', 'true');
@@ -27,6 +41,12 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: 'Missing required fields' });
     }
 
+    // Sanitize user inputs to prevent HTML injection
+    const safeName = escapeHTML(name);
+    const safeEmail = escapeHTML(email);
+    const safePhone = escapeHTML(phone);
+    const safeMessage = escapeHTML(message);
+
     // Prioritize the Vercel Environment Variable, fallback to the provided key
     const apiKey = process.env.RESEND_API_KEY || 're_2QWpiVdV_CcnxBhvrWvuKjZW9Edxj3FPe';
 
@@ -46,6 +66,28 @@ export default async function handler(req, res) {
       other: "Other"
     };
     const friendlySubject = subjectMapping[subject] || subject || "General Inquiry";
+    const safeSubject = escapeHTML(friendlySubject);
+
+    // Construct the professional text/HTML email template
+    const emailHtml = `
+      <div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; max-width: 600px; margin: 0 auto; color: #1a1a1a; line-height: 1.5; font-size: 14px;">
+        <h2 style="font-size: 18px; font-weight: 600; border-bottom: 1px solid #e5e5e5; padding-bottom: 12px; margin-bottom: 24px; color: #000000;">
+          New Client Inquiry
+        </h2>
+        
+        <p style="margin: 0 0 8px 0;"><strong>Name:</strong><br>${safeName}</p>
+        <p style="margin: 0 0 8px 0;"><strong>Email:</strong><br><a href="mailto:${safeEmail}" style="color: #0066cc; text-decoration: none;">${safeEmail}</a></p>
+        <p style="margin: 0 0 8px 0;"><strong>Phone:</strong><br>${safePhone || 'Not provided'}</p>
+        <p style="margin: 0 0 24px 0;"><strong>Matter Type:</strong><br>${safeSubject}</p>
+        
+        <p style="margin: 0 0 8px 0;"><strong>Message:</strong></p>
+        <div style="background-color: #f9fafb; padding: 16px; border-left: 3px solid #d1d5db; white-space: pre-wrap; font-family: inherit; color: #374151; border-radius: 0 4px 4px 0;">${safeMessage}</div>
+        
+        <div style="margin-top: 32px; padding-top: 16px; border-top: 1px solid #e5e5e5; font-size: 12px; color: #6b7280;">
+          Received via celenchambers.org
+        </div>
+      </div>
+    `;
 
     // Call Resend REST API
     const response = await fetch('https://api.resend.com/emails', {
@@ -56,47 +98,11 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         // For Resend free sandbox tier, this MUST be onboarding@resend.dev
-        from: 'Celen LawFirm <onboarding@resend.dev>',
+        from: 'Celen Chambers <onboarding@resend.dev>',
         to: 'info@celenchambers.org',
-        subject: `[Celen LawFirm Inquiry] ${friendlySubject} — ${name}`,
-        html: `
-          <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
-            <div style="background-color: #0f172a; color: #ffffff; padding: 20px; text-align: center;">
-              <h2 style="margin: 0; font-size: 20px; font-weight: 500; letter-spacing: 1px;">CELEN LAW FIRM</h2>
-              <p style="margin: 5px 0 0 0; font-size: 13px; color: #94a3b8;">New Contact Inquiry Received</p>
-            </div>
-            
-            <div style="padding: 24px; background-color: #ffffff;">
-              <table style="width: 100%; border-collapse: collapse;">
-                <tr>
-                  <td style="padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold; width: 120px; color: #64748b;">Full Name:</td>
-                  <td style="padding: 8px 0; border-bottom: 1px solid #f1f5f9; color: #0f172a;">${name}</td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold; color: #64748b;">Email:</td>
-                  <td style="padding: 8px 0; border-bottom: 1px solid #f1f5f9; color: #0f172a;"><a href="mailto:${email}" style="color: #c5a880; text-decoration: none;">${email}</a></td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold; color: #64748b;">Phone:</td>
-                  <td style="padding: 8px 0; border-bottom: 1px solid #f1f5f9; color: #0f172a;">${phone || 'Not provided'}</td>
-                </tr>
-                <tr>
-                  <td style="padding: 8px 0; border-bottom: 1px solid #f1f5f9; font-weight: bold; color: #64748b;">Subject:</td>
-                  <td style="padding: 8px 0; border-bottom: 1px solid #f1f5f9; color: #0f172a; font-weight: 500;">${friendlySubject}</td>
-                </tr>
-              </table>
-              
-              <div style="margin-top: 24px;">
-                <h4 style="margin: 0 0 8px 0; color: #64748b;">Message Details:</h4>
-                <div style="background-color: #f8fafc; border-left: 4px solid #c5a880; padding: 16px; border-radius: 0 4px 4px 0; white-space: pre-wrap; color: #334155; font-size: 14px;">${message}</div>
-              </div>
-            </div>
-            
-            <div style="background-color: #f1f5f9; padding: 15px; text-align: center; font-size: 11px; color: #64748b;">
-              This is an automated delivery from the Celen LawFirm Digital Platform.
-            </div>
-          </div>
-        `
+        reply_to: safeEmail,
+        subject: `[Celen Chambers Inquiry] ${safeSubject} — ${safeName}`,
+        html: emailHtml
       })
     });
 
