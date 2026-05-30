@@ -57,7 +57,7 @@ export default async function handler(req, res) {
       body: JSON.stringify({
         // For Resend free sandbox tier, this MUST be onboarding@resend.dev
         from: 'Celen LawFirm <onboarding@resend.dev>',
-        to: 'celenchambers@gmail.com',
+        to: 'info@celenchambers.org',
         subject: `[Celen LawFirm Inquiry] ${friendlySubject} — ${name}`,
         html: `
           <div style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 600px; margin: 0 auto; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
