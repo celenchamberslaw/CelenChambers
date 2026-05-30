@@ -28,7 +28,7 @@ export default async function handler(req, res) {
     }
 
     // Prioritize the Vercel Environment Variable, fallback to the provided key
-    const apiKey = process.env.RESEND_API_KEY || 're_U4YbGNiL_GrGxboii8ChPB12P6PsqcVSy';
+    const apiKey = process.env.RESEND_API_KEY || 're_2QWpiVdV_CcnxBhvrWvuKjZW9Edxj3FPe';
 
     // Map subject codes to human-readable strings
     const subjectMapping = {
